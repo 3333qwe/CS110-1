@@ -1,0 +1,113 @@
+<!--
+/*
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* !!! AMAZON PROPRIETARY AND CONFIDENTIAL !!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* !!! AMAZON PROPRIETARY AND CONFIDENTIAL !!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* !!! AMAZON PROPRIETARY AND CONFIDENTIAL !!!
+* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+--> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Amazon MP3 Uploader</title>
+		<script type="text/javascript" src="lib/air/AIRAliases.js"></script>
+		<script type="text/javascript" src="lib/jquery/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="lib/resig/class.js" />
+		<script type="application/x-shockwave-flash" src="lib/air/NativeApplicationUpdater.swf" />
+        <script type="text/javascript" src="lib/webamp/uploader/updater.js" />
+        <script type="text/javascript" src="lib/wmpapi/wmpapi.js" />
+		<script type="text/javascript" src="lib/webamp/uploader/webamplocalconnection.js" />
+		<script type="text/javascript" src="lib/webamp/uploader/database.js" />
+        
+	    <script type="text/javascript" src="lib/webamp/uploader/uploader_air.js"></script>
+		<script type="text/javascript" src="lib/webamp/uploader/bridge.js"></script>
+        <script type="text/javascript" src="lib/sleeppreventer/sleeppreventer.js"></script>
+        
+        <script type="text/javascript">
+    		/*
+    		 * TODO: Need to talk with kday@ again. They're updating the bootstrapper soon, so we won't have to spoof, but it's not ready yet
+    	     */
+		    window.htmlLoader.userAgent = window.htmlLoader.userAgent.replace('AppleWebKit', 'Safari');		
+            window.htmlLoader.navigateInSystemBrowser = true;
+            
+            //fix for DMAMU-50 uploader runs behind the browser upon installation
+            this.nativeWindow.alwaysInFront = true;
+
+            air.URLRequestDefaults.idleTimeout = 60000 * 3;
+            window.htmlLoader.idleTimeout = 60000 * 3;
+			
+			setTimeout(function() {
+				this.nativeWindow.alwaysInFront = false;
+			},200);
+            
+			var isWindows = air.Capabilities.os.indexOf("Win") != -1;
+            var os = (isWindows ? "windows" : "mac");
+            var updateBaseUrl = "https://www.amazon.com";
+			
+            var updateUrl = updateBaseUrl + "/gp/dmusic/uploader/currentVersion.html"
+            
+            var mp3UiBaseUrl = "https://www.amazon.com"
+            var mp3UiUrlParams = "";
+            var mp3UiUrl = mp3UiBaseUrl+"/gp/dmusic/uploader/start"+mp3UiUrlParams;
+			
+            var checkForUpdates = function () {
+                if (!window.updater) {
+                    window.updater = new amznMusic.uploader.Updater(updateUrl+"?os="+os);
+                }
+                window.logger.log("fetching updateXML from: " + updateUrl+"?os="+os);
+                window.updater.checkForUpdates();
+            };
+            
+            
+            var body_onLoad = function() {
+                var mp3Ui = document.getElementById('MP3_UI');
+                mp3Ui.src = mp3UiUrl;
+                window.logger.log("initializing mp3 iFrame src to: " + mp3Ui.src);
+                uploader.doLoad(document.getElementById('MP3_UI'));
+            };
+            
+            $(window).ready(function () {
+                if (updateBaseUrl !== "https://www.amazon.com" || mp3UiBaseUrl !== "https://www.amazon.com" || mp3UiUrlParams !== '') {
+                    $('body').addClass('notProd');
+                }
+
+                window.logger.log("parent.html setting up event system");
+                window.amznMusic.uploader.eventBind = $('#airEvents');
+                window.logger.log("binding to " + window.uploader.parentInterface.UPDATE_CHECK_COMPLETE);
+                window.amznMusic.uploader.eventBind.bind(window.uploader.parentInterface.UPDATE_CHECK_COMPLETE, function () {
+                    window.logger.log("caught update check complete event... calling doLoad");
+                    uploader.doLoad(document.getElementById('MP3_UI'));
+                });
+                checkForUpdates();
+            });
+            
+        </script><style type="text/css">
+            #airEvents {display:none;}
+			#MP3_UI { width:100%; border: none; height: 1px; }
+			.startedMp3 #MP3_UI { height:99%; }
+			#startUI { text-align:center; width:100%; height:100%; margin-top:25%}
+			.startedMp3 #startUI { display: none;}
+            body { background-color: white; }
+            body.startedMp3 { background-color: #F9F9FA; }
+            body.notProd { background-color: orange; }
+		</style>
+        
+    </head>
+    <body onLoad="body_onLoad()">
+        <div id="airEvents" ></div>
+        <div id="startUI">
+		    <img src="icons/loading-large_labeled.gif"/>
+		</div>
+	<iframe id="MP3_UI"
+            src=""
+            documentRoot="app:/sandbox/"
+			allowcrossDomainxhr="true"
+			ondominitialize="uploader.createBridge(document.getElementById('MP3_UI'))">
+    </iframe>
+	
+	</body>
+</html>

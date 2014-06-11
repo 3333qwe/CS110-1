@@ -1,0 +1,139 @@
+{
+  "content" : {
+    "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><div class='subjectids'><a name='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><\/a><\/div><h1 class='title topictitle1'>App Store 輔助說明<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>App Store 輔助說明<\/h2><p class='p'>使用 App Store 來尋找、購買和安裝 Mac 應用程式、將應用程式保持在最新狀態，並為應用程式編寫評論。<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "App Store 輔助說明",
+      "name" : "App Store 輔助說明",
+      "class" : "default",
+      "excludefromsearch" : "1"
+    },
+    "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D" : {
+      "name" : "在 App Store 上執行更多操作"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+      "alternativeNameStyle" : "replace"
+    },
+    "apd19be2943-f29b-47e6-bd5f-c42098164b98" : {
+      "navigation" : "false",
+      "content" : "<div id='apd19be2943-f29b-47e6-bd5f-c42098164b98' class='apd-topic'><div class='subjectids'><a name='apd19be2943-f29b-47e6-bd5f-c42098164b98'><\/a><\/div><h1 class='title topictitle1'>目前無法取得所選的主題<\/h1><div class='body conbody'><p class='p'>請確定您已經連接 Internet。如需連線的相關協助，請選擇“蘋果”選單 >“系統偏好設定⋯”，按一下“網路”，然後按一下“協助我⋯”。<\/p><p class='p'>若您已經連接 Internet 但仍無法顯示內容，請稍後再試一次。<\/p><\/div><\/div>",
+      "alternativeName" : "目前無法取得所選的主題",
+      "name" : "目前無法取得所選的主題",
+      "class" : "content-not-available-message"
+    },
+    "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65" : {
+      "name" : "要點"
+    },
+    "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC" : {
+      "name" : "輔助說明主題無目錄",
+      "navigation" : "false"
+    },
+    "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F" : {
+      "name" : "您的帳號"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+          "class" : "default"
+        },
+        {
+          "id" : "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65",
+          "children" : [
+            {
+              "name" : "歡迎使用 App Store",
+              "href" : "#t_Welcome",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "尋找應用程式",
+              "href" : "#t_SearchBrowse",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "購買、下載和安裝應用程式",
+              "href" : "#t_BuyDownloadInstall",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "兌換 Gift Card 和下載代碼",
+              "href" : "#t_Redeem",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "更新 OS X 和應用程式",
+              "href" : "#t_Update",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "將應用程式的相關資訊分享給其他人",
+              "href" : "#t_LearnApps",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F",
+          "children" : [
+            {
+              "name" : "登入和登出",
+              "href" : "#t_SignIn",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "檢視和更改您的 Apple ID 和帳單資訊",
+              "href" : "#t_AppleID",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "使用分級保護控制",
+              "href" : "#t_Parental",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D",
+          "children" : [
+            {
+              "name" : "鍵盤快速鍵和手勢",
+              "href" : "#r_KeyboardShortcuts",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "解決問題",
+              "href" : "#t_Trouble",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC",
+          "children" : [
+            {
+              "id" : "apd19be2943-f29b-47e6-bd5f-c42098164b98",
+              "class" : "content-not-available-message"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "5.7",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "frnic.png",
+    "AppVersion" : "5.1",
+    "FolderName" : "AppStore.help",
+    "LocalizationISOCode" : "zh_TW",
+    "buildID" : "3BCB58BC-9A2F-11E1-B012-155775470237",
+    "Title" : "App Store 輔助說明",
+    "RemoteURL" : "https:\/\/help.apple.com\/appstore\/mac\/1.2\/10.8\/help\/"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "content" : {
+    "atmtr35500" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='atmtr35500'><div class='subjectids'><a name='atmtr35500'><\/a><\/div><h1 class='title topictitle1'>Βοήθεια για το Automator<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>Βοήθεια για το Automator<\/h2><p class='p'>Εξοικονομήστε χρόνο δημιουργώντας ισχυρούς αυτοματισμούς και εργαλεία χωρίς προγραμματισμό με το Automator.<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "Βοήθεια για το Automator",
+      "name" : "Βοήθεια για το Automator",
+      "class" : "default"
+    },
+    "button-1" : {
+      "type" : "navigation",
+      "alternativeNameStyle" : "replace"
+    },
+    "atmtr35500-a" : {
+      "name" : "Απαραίτητα"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "atmtr35500",
+      "alternativeNameStyle" : "replace"
+    },
+    "atmtr35500-b" : {
+      "name" : "Συναρμολόγηση ενεργειών σε ροές εργασιών"
+    },
+    "atmtr35500-c" : {
+      "name" : "Προσθήκη περισσότερων δυνατοτήτων στις ροές εργασιών σας"
+    },
+    "offline-message-com-apple-Automator-help" : {
+      "navigation" : "false",
+      "content" : "<div id='offline-message-com-apple-Automator-help' class='apd-topic'><div class='subjectids'><a name='offline-message-com-apple-Automator-help'><\/a><\/div><h1 class='title topictitle1'>Αυτήν τη στιγμή, το επιλεγμένο θέμα δεν είναι διαθέσιμο<\/h1><div class='body conbody'><p class='p'>Βεβαιωθείτε ότι είστε συνδεδεμένοι στο Διαδίκτυο. Για βοήθεια με τη σύνδεση, επιλέξτε το μενού Apple > «Προτιμήσεις συστήματος», κάντε κλικ στο «Δίκτυο» και μετά στο «Θέλω βοήθεια».<\/p><p class='p'>Εάν συνδεθείτε στο Διαδίκτυο και το περιεχόμενο δεν εμφανίζεται ακόμη, δοκιμάστε ξανά αργότερα.<\/p><\/div><\/div>",
+      "alternativeName" : "Αυτήν τη στιγμή, το επιλεγμένο θέμα δεν είναι διαθέσιμο",
+      "name" : "Αυτήν τη στιγμή, το επιλεγμένο θέμα δεν είναι διαθέσιμο",
+      "class" : "content-not-available-message"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "atmtr35500",
+          "class" : "default"
+        },
+        {
+          "id" : "atmtr35500-a",
+          "children" : [
+            {
+              "name" : "Ενημέρωση σχετικά με ενέργειες",
+              "href" : "#ensm1001",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Ενημέρωση σχετικά με ροές εργασιών",
+              "href" : "#ensm1002",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Επιλογή μιας ενέργειας",
+              "href" : "#ensm1004",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Δημιουργία ροής εργασιών",
+              "href" : "#ensm1007",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Λήψη πληροφοριών για ενέργειες",
+              "href" : "#ensm2689",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Εκτέλεση ροής εργασιών",
+              "href" : "#ensm1011",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Αποθήκευση ροής εργασιών",
+              "href" : "#ensm1008",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "atmtr35500-b",
+          "children" : [
+            {
+              "name" : "Αλλαγή της σειράς των ενεργειών σε μια ροή εργασιών",
+              "href" : "#ensm1013",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Αν η ροή εργασιών σας δεν λειτουργεί",
+              "href" : "#ensm2696",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Προβολή γεγονότων που εκτελούνται από μια ροή εργασιών",
+              "href" : "#ensm2684",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Έλεγχος της εισόδου μιας ροής εργασιών",
+              "href" : "#ensm2712",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Διαγραφή ενεργειών από μια ροή εργασιών",
+              "href" : "#ensm2705",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "atmtr35500-c",
+          "children" : [
+            {
+              "name" : "Έλεγχος του Automator με AppleScript",
+              "href" : "#ensm2682",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Δημιουργία αυτοματισμών με την εγγραφή των ενεργειών σας",
+              "href" : "#atmtr15195",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Προσαρμογή της γραμμής εργαλείων",
+              "href" : "#ensm2714",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Προγραμματισμός μιας ροής εργασιών για εκτέλεση σε συγκεκριμένη ώρα",
+              "href" : "#ensm2716",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Προσθήκη AppleScripts σε μια ροή εργασιών",
+              "href" : "#ensm1014",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Χρήση εντολών UNIX και δεσμών ενεργειών κελύφους στο Automator",
+              "href" : "#ensm1015",
+              "class" : "unresolved-reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "button-1",
+      "children" : [
+        {
+          "id" : "offline-message-com-apple-Automator-help",
+          "class" : "content-not-available-message"
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "17.3",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "autik.png",
+    "AppVersion" : "4.1",
+    "FolderName" : "Automator.help",
+    "LocalizationISOCode" : "el",
+    "buildID" : "F0523ACE-9239-11E1-B012-155775470237",
+    "Title" : "Βοήθεια για το Automator",
+    "RemoteURL" : "https:\/\/help.apple.com\/automator\/mac\/10.8\/help\/"
+  }
+}

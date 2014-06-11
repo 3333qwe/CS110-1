@@ -1,0 +1,173 @@
+{
+  "content" : {
+    "atmtr35500" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='atmtr35500'><div class='subjectids'><a name='atmtr35500'><\/a><\/div><h1 class='title topictitle1'>Nápověda pro Automator<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>Nápověda pro Automator<\/h2><p class='p'>Vytvořením účinných automatizací a nástrojů v Automatoru bez nutnosti programování si můžete šetřit čas a námahu.<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "Nápověda pro Automator",
+      "name" : "Nápověda pro Automator",
+      "class" : "default"
+    },
+    "button-1" : {
+      "type" : "navigation",
+      "alternativeNameStyle" : "replace"
+    },
+    "atmtr35500-a" : {
+      "name" : "Základy"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "atmtr35500",
+      "alternativeNameStyle" : "replace"
+    },
+    "atmtr35500-b" : {
+      "name" : "Seskupení akcí do sledů úloh"
+    },
+    "atmtr35500-c" : {
+      "name" : "Přidání dalších funkcí do sledu úloh"
+    },
+    "offline-message-com-apple-Automator-help" : {
+      "navigation" : "false",
+      "content" : "<div id='offline-message-com-apple-Automator-help' class='apd-topic'><div class='subjectids'><a name='offline-message-com-apple-Automator-help'><\/a><\/div><h1 class='title topictitle1'>Vybrané téma není v tuto chvíli k dispozici<\/h1><div class='body conbody'><p class='p'>Ujistěte se, že jste připojeni k Internetu. Potřebujete-li s připojením pomoci, vyberte v nabídce Apple příkaz Předvolby systému, klikněte na Síť a poté na „Průvodce“.<\/p><p class='p'>Pokud jste k Internetu připojeni a obsah se přesto neobjevuje, zkuste to znovu později.<\/p><\/div><\/div>",
+      "alternativeName" : "Vybrané téma není v tuto chvíli k dispozici",
+      "name" : "Vybrané téma není v tuto chvíli k dispozici",
+      "class" : "content-not-available-message"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "atmtr35500",
+          "class" : "default"
+        },
+        {
+          "id" : "atmtr35500-a",
+          "children" : [
+            {
+              "name" : "Základní informace o akcích",
+              "href" : "#ensm1001",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Základní informace o sledu úloh",
+              "href" : "#ensm1002",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Výběr akce",
+              "href" : "#ensm1004",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Sestavení sledu úloh",
+              "href" : "#ensm1007",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Získání informací o akcích",
+              "href" : "#ensm2689",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Spuštění sledu úloh",
+              "href" : "#ensm1011",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Uložení sledu úloh",
+              "href" : "#ensm1008",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "atmtr35500-b",
+          "children" : [
+            {
+              "name" : "Změna pořadí akcí ve sledu úloh",
+              "href" : "#ensm1013",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Když sled úloh nefunguje",
+              "href" : "#ensm2696",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Zobrazení událostí prováděných sledem úloh",
+              "href" : "#ensm2684",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Ovládání vstupu sledu úloh",
+              "href" : "#ensm2712",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Vymazání akcí ze sledu úloh",
+              "href" : "#ensm2705",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "atmtr35500-c",
+          "children" : [
+            {
+              "name" : "Ovládání Automatoru pomocí AppleScriptu",
+              "href" : "#ensm2682",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Vytváření automatizací záznamem vlastních akcí",
+              "href" : "#atmtr15195",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Úprava panelu nástrojů",
+              "href" : "#ensm2714",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Plánované spuštění sledu úloh v určitou dobu",
+              "href" : "#ensm2716",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Přidání AppleScriptu do sledu úloh",
+              "href" : "#ensm1014",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Použití příkazů a shell skriptů UNIX v Automatoru",
+              "href" : "#ensm1015",
+              "class" : "unresolved-reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "button-1",
+      "children" : [
+        {
+          "id" : "offline-message-com-apple-Automator-help",
+          "class" : "content-not-available-message"
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "17.3",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "autik.png",
+    "AppVersion" : "4.1",
+    "FolderName" : "Automator.help",
+    "LocalizationISOCode" : "cs",
+    "buildID" : "E3EB773C-9239-11E1-B012-155775470237",
+    "Title" : "Nápověda pro Automator",
+    "RemoteURL" : "https:\/\/help.apple.com\/automator\/mac\/10.8\/help\/"
+  }
+}

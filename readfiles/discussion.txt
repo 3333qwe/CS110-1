@@ -1,0 +1,86 @@
+
+1.
+	a. State which layer or layers would need to be changed in order to implement the feature, and describe how 
+		each layer would need to be changed
+		i. Supporting much larger(1 terabyte) disks
+			Supporting this change would only require a modification to the block layer. Layers stacked 				on this layer don't and shouldn't know how large the disk is, so the only changes requires to make a 			larger disk	work would be those necessary to allow the disk to be recognized and organized into 				blocks.
+		
+		ii. Supporting much larger files
+			Supporting much larger files would require a change to the file. The method in which blocks are 			organized into blocks would need to be reimplemented. For UNIX v6, the structure of the inode 				would need to be changed in order for the inode to hold more sector indices. For example this 				could be done by having all of the i_addr's in an inode point to doubly indirect blocks, and not 			just the last one. Then a large inode could hold 8 * 256 * 256 sector indices instead of 7 * 256 			+ 256 * 256 as it currently does
+		
+		iii. Supporting larger(up to 255 character) file and directory names
+			Supporting larger file and directory names would lead to a change in the filename layer. This 				layer would need to expand its namespace to all strings of length up to 255 characters, and not 			only of 14 characters as UNIX v6 does. This could be accomplished by a change in the direntv6 				structure.
+	
+	b. Which enhancements from part a would require modifying the API?
+	
+	Supporting much larger files will not require an update in the API.
+	In part a) I suggested that larger files could be supported by changing the structure of an inode. 			However, this change would not requre a change to the API as applications don't interact directly with 		inodes or know how they are structured.
+		
+	Supporting larger file name will require an update in the API.
+	In particular, it would require an update to the ls command which prints out the file names. ls prints 
+	out the filename in an organized method, Letting the length of the file names greatly increase might 		break the organization. If the name of the directory entries is allowed to greatly increase, the file 		names will not fit on a line. The implementation of ls would need to be changed to allow for this.
+	Other applications will also truncate filenames longer than 14 characters, and will need to be updated 
+	to accept and print out longer filenames.
+	
+	Increasing the disk size will not requre modifying the API. The disk layer abstracts away the disk size,
+	and applications built on top do not even know the disk size.
+	
+
+2. For each of the following names from the Unix v6 file system, describe the three components for that naming image
+	i.i-number.
+		The namespace for the inumbers is the set of integers [1,N] where N is the number of inodes on the 
+		disk(inode table). Each integer in the set is mapped to an inode
+		
+		The name mapping algorithm is found in inode.c's inode_iget() method which maps the i-number to an 			inode.
+		
+		The algorithm fetches the associated inode from the disk.
+		
+		The universe of values is the inodes in the inode table. An i-number is associated with an inode.
+	
+	ii. Absolute pathname
+		The namespace for a pathname is the set of strings of filenames separated by the separator character 		'/'.
+		
+		In UNIX v6, filenames must be no longer than 14 characters long.
+		
+		The name mapping algorithm in UNIX v6 is found in pathname.c's pathname_lookup() method. The 				algorithm parses the string as a path through directories to a file on disk and returns the inumber 		of the file's inode.
+		
+		The universe of values is the set of integers [1,N] where N is the number of inodes in the inode 			table.
+		The value must be associated with an inode as specified in the inode layer.
+	
+	iii. Block within a file
+		The namespace for the block is the set of integers [0,N] where N is the number of blocks that 				consitute the inode. 		
+		
+		The name mapping algorithm is found in file.h's file_getblock() method.Each integer is associated 			with a block on the disk that forms at least part of the file. The method fetches the data on the 			block to its callee.
+		
+		The universe of values is the blocks constituting the file, either in whole if the file fits on a 			block, or part of it if it does not.
+		
+3. Calls to diskimg_readsector:
+	In inode.c-
+		In my code there are 4 different places where diskimg_readsector() is called:
+		
+		inode_iget() line 35:
+		
+		inode_indexlookup() line 58:	
+			line 79:
+	
+	In file.c-
+		file_getblock() line 26:
+
+	In order to print out a user friendly message, I would need to pass down the filename as a parameter to 	the methods in inode.c and file.c. However, this would 	break the abstraction and modularity of the 		layering system, as the filename string would no longer be confined to the filename layer. If we want to 	print the entire pathname, the pathname name string would have to be passed down, further breaking the 
+	layering system.
+	
+	This could be avoided by adding a string field to every inode that stores the absolute pathname to the 		file and then reading that field upon error. However, this would require a reimplementation of the inode 
+	structure, as well as that of any methods that depend on the structure of the inode.
+
+4. a. 	I developed locally.
+   b. 	I did not run across any problems
+   c. 	This assignment was pretty confusing at first. It took several readings and trips to OH before
+   		I fully understood it, but it was worthwhile as I did learn from it. However, I feel that the lecture
+   		thus far could be alot more connected with the assignment.
+   d.   The class is going pretty well, I'm glad a piazza was set for it.
+   
+5. I did not complete any extra credit.
+		
+ 
+		
+		

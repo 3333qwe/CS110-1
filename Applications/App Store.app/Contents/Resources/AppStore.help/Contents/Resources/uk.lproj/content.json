@@ -1,0 +1,139 @@
+{
+  "content" : {
+    "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><div class='subjectids'><a name='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><\/a><\/div><h1 class='title topictitle1'>Довідка App Store<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>Довідка App Store<\/h2><p class='p'>Використовуйте App Store для пошуку, придбання й інсталювання програм для комп’ютерів Mac, а також для подальшого оновлення та написання відгуків і рецензій на програми.<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "Довідка App Store",
+      "name" : "Довідка App Store",
+      "class" : "default",
+      "excludefromsearch" : "1"
+    },
+    "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D" : {
+      "name" : "Додаткові можливості App Store"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+      "alternativeNameStyle" : "replace"
+    },
+    "apd19be2943-f29b-47e6-bd5f-c42098164b98" : {
+      "navigation" : "false",
+      "content" : "<div id='apd19be2943-f29b-47e6-bd5f-c42098164b98' class='apd-topic'><div class='subjectids'><a name='apd19be2943-f29b-47e6-bd5f-c42098164b98'><\/a><\/div><h1 class='title topictitle1'>Вибрана тема зараз недоступна.<\/h1><div class='body conbody'><p class='p'>Впевніться, що ваш комп’ютер під’єднаний до Інтернету. Щоб отримати допомогу зі з’єднанням, виберіть меню «Яблуко» > «Системні параметри», відкрийте панель «Мережа» і натисніть кнопку «Асистент».<\/p><p class='p'>Якщо інтернет-з’єднання активне, проте вміст все одно не з’являється, спробуйте ще раз пізніше.<\/p><\/div><\/div>",
+      "alternativeName" : "Вибрана тема зараз недоступна.",
+      "name" : "Вибрана тема зараз недоступна.",
+      "class" : "content-not-available-message"
+    },
+    "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65" : {
+      "name" : "Основи"
+    },
+    "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC" : {
+      "name" : "Теми довідки без змісту",
+      "navigation" : "false"
+    },
+    "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F" : {
+      "name" : "Ваш обліковий запис"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+          "class" : "default"
+        },
+        {
+          "id" : "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65",
+          "children" : [
+            {
+              "name" : "Ласкаво просимо до App Store!",
+              "href" : "#t_Welcome",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Пошук програм",
+              "href" : "#t_SearchBrowse",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Придбання, викачування й інсталювання програм",
+              "href" : "#t_BuyDownloadInstall",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Використання подарункових карток і кодів на викачування",
+              "href" : "#t_Redeem",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Оновлення системи OS X і програм",
+              "href" : "#t_Update",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Як розказати іншим про програми",
+              "href" : "#t_LearnApps",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F",
+          "children" : [
+            {
+              "name" : "Вхід і вихід",
+              "href" : "#t_SignIn",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Перегляд і змінення Apple ID та відомостей для виписування рахунків",
+              "href" : "#t_AppleID",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Використання Батьківського контролю",
+              "href" : "#t_Parental",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D",
+          "children" : [
+            {
+              "name" : "Клавіатурні скорочення й жести",
+              "href" : "#r_KeyboardShortcuts",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Вирішення проблем",
+              "href" : "#t_Trouble",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC",
+          "children" : [
+            {
+              "id" : "apd19be2943-f29b-47e6-bd5f-c42098164b98",
+              "class" : "content-not-available-message"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "5.7",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "frnic.png",
+    "AppVersion" : "5.1",
+    "FolderName" : "AppStore.help",
+    "LocalizationISOCode" : "uk",
+    "buildID" : "3B28D13C-9A2F-11E1-B012-155775470237",
+    "Title" : "Довідка App Store",
+    "RemoteURL" : "https:\/\/help.apple.com\/appstore\/mac\/1.2\/10.8\/help\/"
+  }
+}

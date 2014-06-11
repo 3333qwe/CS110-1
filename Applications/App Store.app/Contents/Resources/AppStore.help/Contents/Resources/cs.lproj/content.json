@@ -1,0 +1,139 @@
+{
+  "content" : {
+    "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><div class='subjectids'><a name='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><\/a><\/div><h1 class='title topictitle1'>Nápověda pro App Store<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>Nápověda pro App Store<\/h2><p class='p'>V obchodu App Store můžete hledat aplikace pro Mac, zakoupit je a nainstalovat, získat aktualizace a psát recenze.<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "Nápověda pro App Store",
+      "name" : "Nápověda pro App Store",
+      "class" : "default",
+      "excludefromsearch" : "1"
+    },
+    "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D" : {
+      "name" : "Další možnosti obchodu App Store"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+      "alternativeNameStyle" : "replace"
+    },
+    "apd19be2943-f29b-47e6-bd5f-c42098164b98" : {
+      "navigation" : "false",
+      "content" : "<div id='apd19be2943-f29b-47e6-bd5f-c42098164b98' class='apd-topic'><div class='subjectids'><a name='apd19be2943-f29b-47e6-bd5f-c42098164b98'><\/a><\/div><h1 class='title topictitle1'>Vybrané téma není k dispozici<\/h1><div class='body conbody'><p class='p'>Ujistěte se, že jste připojeni k Internetu. Chcete-li nápovědu pro připojení, použijte příkaz Předvolby systému z nabídky Apple, klikněte na Síť a poté na „Průvodce“.<\/p><p class='p'>Jste-li připojeni k Internetu, avšak obsah se přesto nezobrazuje, zkuste to znovu později.<\/p><\/div><\/div>",
+      "alternativeName" : "Vybrané téma není k dispozici",
+      "name" : "Vybrané téma není k dispozici",
+      "class" : "content-not-available-message"
+    },
+    "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65" : {
+      "name" : "Základy"
+    },
+    "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC" : {
+      "name" : "Témata nápovědy",
+      "navigation" : "false"
+    },
+    "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F" : {
+      "name" : "Váš účet"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+          "class" : "default"
+        },
+        {
+          "id" : "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65",
+          "children" : [
+            {
+              "name" : "Vítá vás obchod App Store",
+              "href" : "#t_Welcome",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Hledání aplikací",
+              "href" : "#t_SearchBrowse",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Nákup, stažení a instalace aplikací",
+              "href" : "#t_BuyDownloadInstall",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Použití dárkových karet a kódů pro stahování",
+              "href" : "#t_Redeem",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Aktualizace OS X a aplikací",
+              "href" : "#t_Update",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Sdílení informací o aplikacích",
+              "href" : "#t_LearnApps",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F",
+          "children" : [
+            {
+              "name" : "Přihlášení a odhlášení",
+              "href" : "#t_SignIn",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Kontrola a změna Apple ID a platebních informací",
+              "href" : "#t_AppleID",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Použití rodičovského dohledu",
+              "href" : "#t_Parental",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D",
+          "children" : [
+            {
+              "name" : "Klávesové zkratky a gesta",
+              "href" : "#r_KeyboardShortcuts",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Řešení problémů",
+              "href" : "#t_Trouble",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC",
+          "children" : [
+            {
+              "id" : "apd19be2943-f29b-47e6-bd5f-c42098164b98",
+              "class" : "content-not-available-message"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "5.7",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "frnic.png",
+    "AppVersion" : "5.1",
+    "FolderName" : "AppStore.help",
+    "LocalizationISOCode" : "cs",
+    "buildID" : "378F06B8-9A2F-11E1-B012-155775470237",
+    "Title" : "Nápověda pro App Store",
+    "RemoteURL" : "https:\/\/help.apple.com\/appstore\/mac\/1.2\/10.8\/help\/"
+  }
+}

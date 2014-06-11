@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12C43</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>appdownload</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>App Store Download</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.apple.appstore.appdownload</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>App Store</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>AppStore.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>App Store Help</string>
+	<key>CFBundleIconFile</key>
+	<string>appStore.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.appstore</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>App Store</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>Mac App Store URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>macappstore</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>Mac App Store secure URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>macappstores</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>129.7</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4F250</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12C43</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0440</string>
+	<key>DTXcodeBuild</key>
+	<string>4F250</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7</string>
+	<key>MDItemKeywords</key>
+	<string>Mac App Store</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSDockTilePlugIn</key>
+	<string>DockTile.docktileplugin</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>FRApplication</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>App Store Download</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.apple.appstore.appdownload</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>appdownload</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

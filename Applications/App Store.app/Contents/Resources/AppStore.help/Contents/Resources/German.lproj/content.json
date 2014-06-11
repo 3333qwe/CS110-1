@@ -1,0 +1,139 @@
+{
+  "content" : {
+    "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><div class='subjectids'><a name='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><\/a><\/div><h1 class='title topictitle1'>App Store-Hilfe<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>App Store-Hilfe<\/h2><p class='p'>Im App Store können Sie Mac-Apps suchen, kaufen und installieren sowie Apps aktualisieren und Rezensionen über sie schreiben.<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "App Store-Hilfe",
+      "name" : "App Store-Hilfe",
+      "class" : "default",
+      "excludefromsearch" : "1"
+    },
+    "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D" : {
+      "name" : "Weitere Funktionen im App Store"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+      "alternativeNameStyle" : "replace"
+    },
+    "apd19be2943-f29b-47e6-bd5f-c42098164b98" : {
+      "navigation" : "false",
+      "content" : "<div id='apd19be2943-f29b-47e6-bd5f-c42098164b98' class='apd-topic'><div class='subjectids'><a name='apd19be2943-f29b-47e6-bd5f-c42098164b98'><\/a><\/div><h1 class='title topictitle1'>Das gewählte Thema ist derzeit nicht verfügbar<\/h1><div class='body conbody'><p class='p'>Vergewissern Sie sich, dass eine Verbindung zum Internet besteht. Wählen Sie „Apple“ > „Systemeinstellungen“, klicken Sie auf „Netzwerk“ und dann auf „Assistent“, wenn Sie Hilfe benötigen.<\/p><p class='p'>Wenn Sie mit dem Internet verbunden sind, den Inhalt aber dennoch nicht sehen können, versuchen Sie es zu einem späteren Zeitpunkt erneut.<\/p><\/div><\/div>",
+      "alternativeName" : "Das gewählte Thema ist derzeit nicht verfügbar",
+      "name" : "Das gewählte Thema ist derzeit nicht verfügbar",
+      "class" : "content-not-available-message"
+    },
+    "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65" : {
+      "name" : "Wichtige Themen"
+    },
+    "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC" : {
+      "name" : "Help topics no toc",
+      "navigation" : "false"
+    },
+    "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F" : {
+      "name" : "Ihr Account"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+          "class" : "default"
+        },
+        {
+          "id" : "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65",
+          "children" : [
+            {
+              "name" : "Willkommen beim App Store",
+              "href" : "#t_Welcome",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Suchen von Apps",
+              "href" : "#t_SearchBrowse",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Kaufen, Laden und Installieren von Apps",
+              "href" : "#t_BuyDownloadInstall",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Einlösen von Geschenkkarten und Download-Codes",
+              "href" : "#t_Redeem",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Aktualisieren von OS X und Apps",
+              "href" : "#t_Update",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Austauschen von Informationen zu Apps",
+              "href" : "#t_LearnApps",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F",
+          "children" : [
+            {
+              "name" : "Anmelden und Abmelden",
+              "href" : "#t_SignIn",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Anzeigen und Ändern Ihrer Apple-ID sowie Ihrer Rechnungsdaten",
+              "href" : "#t_AppleID",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Verwenden der Kindersicherung",
+              "href" : "#t_Parental",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D",
+          "children" : [
+            {
+              "name" : "Tastaturkurzbefehle und Gesten",
+              "href" : "#r_KeyboardShortcuts",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Fehlerbeseitigung",
+              "href" : "#t_Trouble",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC",
+          "children" : [
+            {
+              "id" : "apd19be2943-f29b-47e6-bd5f-c42098164b98",
+              "class" : "content-not-available-message"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "5.7",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "frnic.png",
+    "AppVersion" : "5.1",
+    "FolderName" : "AppStore.help",
+    "LocalizationISOCode" : "de",
+    "buildID" : "377ED342-9A2F-11E1-B012-155775470237",
+    "Title" : "App Store-Hilfe",
+    "RemoteURL" : "https:\/\/help.apple.com\/appstore\/mac\/1.2\/10.8\/help\/"
+  }
+}

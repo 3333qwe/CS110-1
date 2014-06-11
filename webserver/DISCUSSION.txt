@@ -1,0 +1,54 @@
+Javier Palomares
+03/15/13
+
+Webserver Design Documentation
+
+User Manual
+The browser interface provides the user with a text for to input the word
+to query and a radio button for each of the disks. The user can query any
+desired input up to length 32.The user must enter an input and select a
+disk to query. Attempting to query a word without selecting a disk will be
+interpreted as no query and will redirect the browser to the query home
+page. Selecting a disk and not inputting query is interpreted as an
+attempt to search for the empty string in the desired disk and will go
+through the disksearch as a legitimate query operation.
+
+Upon processing a query, the browser displays the results of the query
+with a message:
+
+"Attempt to query file <disk> for word <query> returns:"
+and either
+"Word <query> @<path>:<offset>"
+if the word is found in the disk, 
+"Word <query> not found"
+if the word is not found.
+or 
+"No query done" on bad attempts to query(No disk/query input).
+
+Protocol Descriptions
+
+Browser/Webserver
+
+The browser and webserver communicate solely with get requests. Both the
+query and disk forms are set to get methods. Upon a get request, the
+webserver parses the path for the disk and query, and after processing the
+query, inserts the results into the html string to return to the browser
+as a static string.
+
+Browser/Disksearch
+
+The browser and disksearch communicate over a TCP connection. The protocol
+has been implemented to include a header at the start of any bitstream
+over the TCP containing the length of the bitstream. This allows the
+receiving side of the connection to allocate a buffer large enough to hold
+the bitstream message prior to begin reading it.This protocol is followed when the webserver sends
+the query to the disksearch and when the disksearch send the result to the
+webserver.
+Skematically,
+the webserver sends the word to query in Query_WordLookup,prepending it
+with the length of the message.
+The disksearch reads in ProcessQuery. First it reads the length, allocates
+a buffer to hold a message of that size, reads the message and does the
+querying. The result from the query is then prepended with its length and
+is sent back to the webserver over the TCP.
+

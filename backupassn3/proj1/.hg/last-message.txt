@@ -1,0 +1,2 @@
+Will try to use the cache in file_getblock
+

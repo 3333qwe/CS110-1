@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+  <description></description>
+  <name>en_GB</name>
+  <strings>
+    <string base="dmusic_about_copyright" translated="© 2007-2012, Amazon.co.uk, Inc. or its affiliates"></string>
+    <string base="dmusic_about_title" translated="About"></string>
+    <string base="dmusic_about_version_osx" translated="Version: %d.%d.%d.%d"></string>
+    <string base="dmusic_about_version_w32" translated="Version:"></string>
+    <string base="dmusic_advprefs_enable_proxy_osx" translated="None (disabled)"></string>
+    <string base="dmusic_advprefs_enable_proxy_w32" translated="Download through a proxy server"></string>
+    <string base="dmusic_advprefs_proxy_address" translated="Address:"></string>
+    <string base="dmusic_advprefs_proxy_password" translated="Password:"></string>
+    <string base="dmusic_advprefs_proxy_port" translated="Port:"></string>
+    <string base="dmusic_advprefs_proxy_settings" translated="Proxy Settings:"></string>
+    <string base="dmusic_advprefs_proxy_type" translated="Type:"></string>
+    <string base="dmusic_advprefs_proxy_username" translated="Username:"></string>
+    <string base="dmusic_advprefs_title" translated="Advanced Preferences"></string>
+    <string base="dmusic_amd_branding" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_balloon_adding_track_to_library" translated="(Adding to %1%)"></string>
+    <string base="dmusic_balloon_album_added_to_queue" translated="Added the album &quot;%1%&quot; by &quot;%2%&quot; to the download queue."></string>
+    <string base="dmusic_balloon_all_tracks_finished" translated="All items have finished downloading."></string>
+    <string base="dmusic_balloon_finished_with_errors" translated="Downloading finished with errors. Click the Retry button to retry your download again or Get Help for further assistance."></string>
+    <string base="dmusic_balloon_music_in_library" translated="You can find your music in your %1% library."></string>
+    <string base="dmusic_balloon_queue_finished_help" translated="Click Get Help for further assistance."></string>
+    <string base="dmusic_balloon_track_add_failed" translated="An item was unable to be added to the %1% library."></string>
+    <string base="dmusic_balloon_track_add_skipped" translated="An item was not added to %1% library because it is not supported by %1%."></string>
+    <string base="dmusic_balloon_track_added_to_queue" translated="Added the item &quot;%1%&quot; by &quot;%2%&quot; to the download queue."></string>
+    <string base="dmusic_balloon_track_fail_plural" translated="%1% items couldn't be added to your %2% library."></string>
+    <string base="dmusic_balloon_track_fail_singular" translated="%1% item couldn't be added to your %2% library."></string>
+    <string base="dmusic_balloon_track_finished" translated="Finished downloading the item &quot;%1%&quot; by &quot;%2%&quot;"></string>
+    <string base="dmusic_balloon_track_skipped_plural" translated="%1% items weren't added to your %2% library as the file format isn't supported by %2%."></string>
+    <string base="dmusic_balloon_track_skipped_singular" translated="%1% item wasn't added to your %2% library as the file format isn't supported by %2%."></string>
+    <string base="dmusic_balloon_track_started" translated="Now downloading the item &quot;%1%&quot; by &quot;%2%&quot;"></string>
+    <string base="dmusic_button_cancel" translated="Cancel"></string>
+    <string base="dmusic_button_close" translated="Close"></string>
+    <string base="dmusic_button_get_help" translated="Get Help"></string>
+    <string base="dmusic_button_ignore" translated="Ignore"></string>
+    <string base="dmusic_button_install" translated="Install"></string>
+    <string base="dmusic_button_no" translated="No"></string>
+    <string base="dmusic_button_ok" translated="OK"></string>
+    <string base="dmusic_button_open_itunes" translated="Open iTunes"></string>
+    <string base="dmusic_button_open_wmp" translated="Open Windows Media Player"></string>
+    <string base="dmusic_button_quit" translated="Quit"></string>
+    <string base="dmusic_button_retry_download" translated="Retry"></string>
+    <string base="dmusic_button_retry_import" translated="Retry"></string>
+    <string base="dmusic_button_show_download_directory" translated="View Download Folder"></string>
+    <string base="dmusic_button_yes" translated="Yes"></string>
+    <string base="dmusic_corrupteditunes_explanation" translated="The iTunes application installed on your computer appears to be corrupted. The Amazon MP3 Downloader is unable to add downloads to iTunes until the problem is fixed. Please click on Get Help to read the troubleshooting guide."></string>
+    <string base="dmusic_corrupteditunes_more_info" translated="Get Help"></string>
+    <string base="dmusic_corrupteditunes_more_info_url" translated="http://www.amazon.co.uk/gp/help/customer/display.html?ie=UTF8&amp;nodeId=200274430#import"></string>
+    <string base="dmusic_corrupteditunes_moreinfo" translated="More Information"></string>
+    <string base="dmusic_corrupteditunes_title" translated="Corrupted iTunes Installation"></string>
+    <string base="dmusic_diskfull_desc1" translated="The disk that your Download Folder is located on is full."></string>
+    <string base="dmusic_diskfull_desc2" translated="There is not enough free space on the disk to complete additional downloads. You may solve this problem by:"></string>
+    <string base="dmusic_diskfull_desc3_osx_gtk" translated="1. Removing files from your computer and/or emptying the Trash."></string>
+    <string base="dmusic_diskfull_desc3_w32" translated="1. Removing files from your computer and/or emptying the Recycle Bin."></string>
+    <string base="dmusic_diskfull_desc4_osx" translated="2. Changing the download path to a different drive. To do this select &quot;Preferences&quot; from the application's main menu."></string>
+    <string base="dmusic_diskfull_desc4_w32_gtk" translated="2. Changing the download path to a different drive. To do this select Preferences from the File menu in the main window."></string>
+    <string base="dmusic_diskfull_desc5" translated="All of your remaining downloads have been automatically paused. You may resume them when more space is available by clicking Resume Downloads in the Amazon MP3 Downloader."></string>
+    <string base="dmusic_diskfull_title" translated="Out of Disk Space"></string>
+    <string base="dmusic_dl_bad_proxy_settings" translated="Invalid proxy server settings. Please check your preferences."></string>
+    <string base="dmusic_dl_canceled" translated="Canceled"></string>
+    <string base="dmusic_dl_canceling" translated="Canceling"></string>
+    <string base="dmusic_dl_cant_connect_contact_cs" translated="Can't connect. Please contact customer service."></string>
+    <string base="dmusic_dl_cant_connect_retry" translated="Can't connect. Check your Internet connection and retry download."></string>
+    <string base="dmusic_dl_completed" translated="Completed"></string>
+    <string base="dmusic_dl_downloaded" translated="Downloaded"></string>
+    <string base="dmusic_dl_downloading" translated="Downloading"></string>
+    <string base="dmusic_dl_expired" translated="Download no longer available. Please contact customer service."></string>
+    <string base="dmusic_dl_failed_contact_cs" translated="Download failed. Please contact customer service."></string>
+    <string base="dmusic_dl_failed_retry_contact_cs" translated="Download failed. Retry download; if problem persists contact customer service."></string>
+    <string base="dmusic_dl_import_failed" translated="Import failed"></string>
+    <string base="dmusic_dl_import_retrying" translated="Retrying import"></string>
+    <string base="dmusic_dl_import_skipped" translated="Import skipped"></string>
+    <string base="dmusic_dl_importing" translated="Importing"></string>
+    <string base="dmusic_dl_incomplete" translated="Incomplete"></string>
+    <string base="dmusic_dl_local_file_error" translated="Local file error"></string>
+    <string base="dmusic_dl_paused" translated="Paused"></string>
+    <string base="dmusic_dl_pausing" translated="Pausing"></string>
+    <string base="dmusic_dl_retrying" translated="Retrying"></string>
+    <string base="dmusic_dl_waiting" translated="Waiting"></string>
+    <string base="dmusic_dlg_check_amz_permissions_1" translated="Unable to add the AMZ file at:"></string>
+    <string base="dmusic_dlg_check_amz_permissions_2" translated="Please make sure you have permission to read this file and try again."></string>
+    <string base="dmusic_dlg_check_file_assocation_desc" translated="Unable to open the selected file. Please check your file association and try again."></string>
+    <string base="dmusic_dlg_clear_erroneous_desc" translated="Your download queue contains erroneous downloads, would you like to clear these as well?"></string>
+    <string base="dmusic_dlg_clear_erroneous_title" translated="Clear erroneous downloads?"></string>
+    <string base="dmusic_dlg_completed_do_not_remind_me_again" translated="Don't show this message again."></string>
+    <string base="dmusic_dlg_completed_itunes_desc1" translated="Your music has been downloaded and imported successfully."></string>
+    <string base="dmusic_dlg_completed_itunes_desc2" translated="You can find your music in your iTunes library or by browsing the Downloads Directory using Windows Explorer."></string>
+    <string base="dmusic_dlg_completed_itunes_desc2_osx" translated="You can find your music in your iTunes library or by browsing the Downloads Directory using the Finder."></string>
+    <string base="dmusic_dlg_completed_itunes_title" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_dlg_completed_no_library_desc1" translated="Your music has been downloaded successfully."></string>
+    <string base="dmusic_dlg_completed_no_library_desc2" translated="You can find your music by browsing the Downloads Directory."></string>
+    <string base="dmusic_dlg_completed_no_library_desc2_osx" translated="You can find your music by browsing the Downloads Directory using the Finder."></string>
+    <string base="dmusic_dlg_completed_no_library_title" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_dlg_completed_wmp_desc1" translated="Your music has been downloaded and imported successfully."></string>
+    <string base="dmusic_dlg_completed_wmp_desc2" translated="You can find your music in your Windows Media Player library or by browsing the Downloads Directory using Windows Explorer."></string>
+    <string base="dmusic_dlg_completed_wmp_title" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_dlg_confirm_quit_desc" translated="There are still active downloads or imports, are you sure you want to exit?"></string>
+    <string base="dmusic_dlg_confirm_quit_title" translated="There are still active downloads or imports"></string>
+    <string base="dmusic_dlg_download_expired_desc1" translated="Expired Links"></string>
+    <string base="dmusic_dlg_download_expired_desc2" translated="One or more of your downloads failed because too much time has passed since the download started. Click Get Help for more information to help you continue."></string>
+    <string base="dmusic_dlg_download_failed_desc1" translated="Download Failed"></string>
+    <string base="dmusic_dlg_download_failed_desc2" translated="One or more of your downloads failed."></string>
+    <string base="dmusic_dlg_download_failed_title" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_dlg_help_file_missing" translated="Unable to locate the help file; please reinstall the application."></string>
+    <string base="dmusic_dlg_import_failed_desc1" translated="Failed Import"></string>
+    <string base="dmusic_dlg_import_failed_desc2_itunes" translated="One or more downloads failed to import into your iTunes library. Please navigate to iTunes and close or confirm any pending messages, if any are open. Please also close and re-open iTunes. Then retry any failed imports by clicking the Retry button. Furthermore, you can always find your music items by clicking the View Download Folder button."></string>
+    <string base="dmusic_dlg_import_failed_desc2_wmp" translated="One or more downloads failed to import into your Windows Media Player library. Retry any failed imports by clicking the Retry button. Furthermore, you can always find your music items by clicking the View Download Folder button."></string>
+    <string base="dmusic_dlg_import_failed_title" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_dlg_import_skipped_desc1" translated="Some items were not imported."></string>
+    <string base="dmusic_dlg_import_skipped_desc2_itunes" translated="One or more downloads were not imported into your iTunes library. These items were in a file format that iTunes does not support. You can always find your music items by clicking the View Download Folder button."></string>
+    <string base="dmusic_dlg_import_skipped_desc2_wmp" translated="One or more downloads were not imported into your Windows Media Player library. These items were in a file format that your Windows Media Player does not support. You can always find your music items by clicking the View Download Folder button."></string>
+    <string base="dmusic_dlg_import_skipped_title" translated="Amazon MP3 Downloader"></string>
+    <string base="dmusic_dlg_invalid_amz_desc" translated="Failed to add items to download queue. Input file is either invalid or corrupted."></string>
+    <string base="dmusic_dlg_no_default_browser_desc" translated="Sorry, no default file browser could be located. You can find your music in the following directory:"></string>
+    <string base="dmusic_dlg_no_default_browser_title" translated="No default file browser found"></string>
+    <string base="dmusic_dlg_permission_denied_desc" translated="You do not have permission to store files in the selected directory. Please choose a different one."></string>
+    <string base="dmusic_dlg_permission_denied_title" translated="Permission Denied"></string>
+    <string base="dmusic_dlg_safari_needs_restart_desc" translated="The Amazon MP3 Downloader requires Safari to be restarted to complete the installation.\n\nIf you are placing an order you will be prompted to complete your purchase when Safari restarts. Please close Safari and press OK to proceed."></string>
+    <string base="dmusic_dlg_safari_needs_restart_title" translated="Safari Needs to be Restarted"></string>
+    <string base="dmusic_dlg_select_amz_file" translated="Please select an AMZ file to load"></string>
+    <string base="dmusic_installation_complete" translated="Installation complete"></string>
+    <string base="dmusic_install_amd_running_osx_desc" translated="Please close the Amazon MP3 Downloader before continuing installation."></string>
+    <string base="dmusic_install_amd_running_osx_title" translated="Amazon MP3 Downloader is Running"></string>
+    <string base="dmusic_install_amd_running_w32_desc" translated="Amazon MP3 Downloader is still running, please close it and press OK to continue.$\n$\nPress Cancel to abort setup."></string>
+    <string base="dmusic_install_auth_failed_desc" translated="Failed to gain authorization to install the Amazon MP3 Downloader."></string>
+    <string base="dmusic_install_auth_failed_title" translated="Authorization Failed"></string>
+    <string base="dmusic_install_cancel" translated="Cancel Installation"></string>
+    <string base="dmusic_install_double_click" translated="To install, double click the Amazon MP3 Installer below."></string>
+    <string base="dmusic_install_failed_copy_desc" translated="Failed to copy the new version of the Amazon MP3 Downloader to your Applications directory."></string>
+    <string base="dmusic_install_failed_copy_title" translated="Installation Failed"></string>
+    <string base="dmusic_install_invalid_os_osx_desc" translated="You must have OS X version 10.4.0 (Tiger) or greater to use the Amazon MP3 Downloader."></string>
+    <string base="dmusic_install_invalid_os_title" translated="Operating System Not Supported"></string>
+    <string base="dmusic_install_invalid_osx_w32_desc" translated="Amazon MP3 Downloader requires Windows XP or later."></string>
+    <string base="dmusic_install_millions_drm_free" translated="Millions of DRM-Free Music Downloads"></string>
+    <string base="dmusic_install_pkg_desc_btk" translated="Use the Amazon MP3 Downloader to download albums from Amazon's MP3 store."></string>
+    <string base="dmusic_install_songs_compatible" translated="All Songs Compatible With:"></string>
+    <string base="dmusic_install_title" translated="Amazon MP3 Installer"></string>
+    <string base="dmusic_log_dir_name" translated="Amazon MP3"></string>
+    <string base="dmusic_menu_file" translated="File"></string>
+    <string base="dmusic_menu_file_exit" translated="Exit"></string>
+    <string base="dmusic_menu_file_open_amz" translated="Open AMZ File..."></string>
+    <string base="dmusic_menu_file_prefs" translated="Preferences..."></string>
+    <string base="dmusic_menu_help" translated="Help"></string>
+    <string base="dmusic_menu_help_about" translated="About..."></string>
+    <string base="dmusic_menu_help_check_update" translated="Check for updates"></string>
+    <string base="dmusic_menu_help_contact_cs" translated="Contact Customer Service"></string>
+    <string base="dmusic_menu_help_enable_in_browser" translated="Enable Downloader in Browser"></string>
+    <string base="dmusic_menu_help_show" translated="Show Help"></string>
+    <string base="dmusic_notification_tip" translated="Downloading (%1%%%)"></string>
+    <string base="dmusic_prefs_add_none" translated="Do nothing"></string>
+    <string base="dmusic_prefs_add_to_itunes" translated="Add it to iTunes"></string>
+    <string base="dmusic_prefs_add_to_wmp" translated="Add it to Windows Media Player"></string>
+    <string base="dmusic_prefs_advanced_button" translated="Advanced"></string>
+    <string base="dmusic_prefs_auto_minimize" translated="Automatically minimize when started from browser"></string>
+    <string base="dmusic_prefs_auto_update_check" translated="Automatically check for program updates"></string>
+    <string base="dmusic_prefs_change_button" translated="Change"></string>
+    <string base="dmusic_prefs_general_tab" translated="General"></string>
+    <string base="dmusic_prefs_minimize_to_tray" translated="Minimize to notification tray"></string>
+    <string base="dmusic_prefs_music_dir_gtk" translated="Download Directory"></string>
+    <string base="dmusic_prefs_music_dir_osx" translated="Save downloads to"></string>
+    <string base="dmusic_prefs_music_dir_w32" translated="Download Folder"></string>
+    <string base="dmusic_prefs_network_tab" translated="Network"></string>
+    <string base="dmusic_prefs_post_download" translated="When an item finishes downloading..."></string>
+    <string base="dmusic_prefs_select_directory" translated="Select a directory"></string>
+    <string base="dmusic_prefs_show_balloon_tips" translated="Show balloon tips"></string>
+    <string base="dmusic_prefs_title" translated="Preferences"></string>
+    <string base="dmusic_return_to_browser" translated="Installation of the Amazon MP3 Downloader was successful. Please return to your browser to complete your music download."></string>
+    <string base="dmusic_status_downloading_by" translated="by"></string>
+    <string base="dmusic_status_downloading_gtk" translated="Now downloading &lt;b&gt;&lt;big&gt;%1%&lt;/big&gt;&lt;/b&gt;&lt;br&gt;by &lt;b&gt;&lt;big&gt;%2%&lt;/big&gt;&lt;/b&gt;"></string>
+    <string base="dmusic_status_downloading_osx" translated="Now downloading %1$@ by %2$@"></string>
+    <string base="dmusic_status_downloading_w32" translated="Now downloading"></string>
+    <string base="dmusic_status_shop" translated="Shop Amazon MP3 Store"></string>
+    <string base="dmusic_statusbar_adding_plural" translated="Adding %1% items to %2%"></string>
+    <string base="dmusic_statusbar_adding_singular" translated="Adding %1% item to %2%"></string>
+    <string base="dmusic_toolbar_clear" translated="Clear Completed"></string>
+    <string base="dmusic_toolbar_clear_hint" translated="Clear erroneous and completed downloads"></string>
+    <string base="dmusic_toolbar_open" translated="Open Selected"></string>
+    <string base="dmusic_toolbar_pause" translated="Pause Downloads"></string>
+    <string base="dmusic_toolbar_pause_hint" translated="Pause all Downloads"></string>
+    <string base="dmusic_toolbar_resume" translated="Resume Downloads"></string>
+    <string base="dmusic_toolbar_resume_hint" translated="Resume all Downloads"></string>
+    <string base="dmusic_toolbar_reveal_gtk" translated="View Download Directory"></string>
+    <string base="dmusic_toolbar_reveal_hint_osx" translated="Reveal selected download in Finder"></string>
+    <string base="dmusic_toolbar_reveal_osx" translated="Reveal in Finder"></string>
+    <string base="dmusic_toolbar_reveal_w32" translated="View Download Folder"></string>
+    <string base="dmusic_traymenu_exit" translated="Exit"></string>
+    <string base="dmusic_traymenu_restore" translated="Restore"></string>
+    <string base="dmusic_treeview_action" translated="Action"></string>
+    <string base="dmusic_treeview_action_open" translated="Open"></string>
+    <string base="dmusic_treeview_action_play" translated="Play"></string>
+    <string base="dmusic_treeview_action_retry_download" translated="Retry"></string>
+    <string base="dmusic_treeview_action_retry_import" translated="Retry"></string>
+    <string base="dmusic_treeview_action_video_play" translated="Play"></string>
+    <string base="dmusic_treeview_action_view_download_dir" translated="View Download Folder"></string>
+    <string base="dmusic_treeview_status" translated="Status"></string>
+    <string base="dmusic_treeview_title" translated="Title"></string>
+    <string base="dmusic_update_check_failed_desc" translated="Failed to retrieve update information. Make sure you are connected to the internet and try again in a few minutes."></string>
+    <string base="dmusic_update_check_failed_title" translated="Update check failed"></string>
+    <string base="dmusic_update_installed_version" translated="Installed Version:"></string>
+    <string base="dmusic_update_latest_version" translated="Latest Version:"></string>
+    <string base="dmusic_update_new_version_desc" translated="There is a newer version of the Amazon MP3 Downloader available. We recommend that you install this new version as soon as possible."></string>
+    <string base="dmusic_update_new_version_title" translated="Newer Version Available"></string>
+    <string base="dmusic_update_quit_goto_dl_page" translated="Quit and go to download page"></string>
+    <string base="dmusic_update_remind_me_later" translated="Remind me later"></string>
+    <string base="dmusic_update_up_to_date_desc" translated="Your copy of the Amazon MP3 Downloader is up to date."></string>
+    <string base="dmusic_update_up_to_date_title" translated="Version Up to Date"></string>
+    <string base="dmusic_url_help_general" translated="http://www.amazon.co.uk/gp/help/customer/display.html/?nodeId=200274430"></string>
+    <string base="dmusic_url_customer_service" translated="https://www.amazon.co.uk/gp/help/contact-us/music-downloads.html"></string>
+    <string base="dmusic_url_download_folder_full" translated="http://www.amazon.co.uk/gp/help/customer/display.html/ref=hp_200274450_error?nodeId=200274450#full_disk"></string>
+    <string base="dmusic_url_expired_download" translated="http://www.amazon.co.uk/gp/help/customer/display.html/ref=hp_200274450_error?nodeId=200274450#failed_download"></string>
+    <string base="dmusic_url_failed_download" translated="http://www.amazon.co.uk/gp/help/customer/display.html/ref=hp_200274450_error?nodeId=200274450#failed_download"></string>
+    <string base="dmusic_url_failed_import" translated="http://www.amazon.co.uk/gp/help/customer/display.html/ref=hp_200274450_reg?nodeId=200274450#failed_import"></string>
+    <string base="dmusic_url_music_store" translated="http://www.amazon.co.uk/mp3/"></string>
+    <string base="dmusic_url_post_install" translated="http://www.amazon.co.uk/gp/dmusic/after_download_manager_install.html"></string>
+    <string base="dmusic_url_post_uninstall" translated="http://www.amazon.co.uk/gp/dmusic/after_download_manager_uninstall.html"></string>
+    <string base="dmusic_url_report_service" translated="http://www.amazon.co.uk/gp/dmusic/amd-result.html/"></string>
+    <string base="dmusic_url_skipped_import" translated="http://www.amazon.co.uk/gp/help/customer/display.html/ref=hp_200274450_reg?nodeId=200274450#failed_import"></string>
+    <string base="dmusic_url_troubleshooting" translated="http://www.amazon.co.uk/gp/help/customer/display.html/ref=hp_200274450_reg?nodeId=200274450"></string>
+    <string base="dmusic_url_update_check" translated="http://www.amazon.co.uk/gp/dmusic/current_download_manager_version.html"></string>
+    <string base="dmusic_url_cirrus_report_service" translated="https://www.amazon.co.uk/cirrus/2011-06-01/"></string>
+  </strings>
+</translation>

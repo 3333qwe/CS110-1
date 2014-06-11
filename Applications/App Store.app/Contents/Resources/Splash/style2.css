@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	-webkit-user-select: none;
+	border: none;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+body {
+	background: rgb(245, 246, 247) url('../Images/backgroundTile@2x.png') top center repeat-x;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	color: rgb(126, 132, 136);
+}
+
+#container {
+	position: absolute;
+	top: 50%;
+	margin-top: -120px;
+	left: 50%;
+	margin-left: -250px;
+	width: 500px;
+	height: 240px;
+}
+
+#glyph {
+	width: 100%;
+	background: transparent url('../Images/appstore@2x.png') top center no-repeat;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AmazonMP3DownloaderPlugin</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AmazonMP3DownloaderPlugin 1.0.17, Copyright 2012 Amazon.com, Inc. or its affiliates</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.AmazonMP3DownloaderPluginLib.Amazon MP3 Downloader Plugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BRPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AmazonMP3DownloaderPlugin 1.0.17</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.17</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<string>MyFactoryFunction</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<array>
+			<string>00000000-0000-0000-0000-000000000000</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+	<key>WebPluginDescription</key>
+	<string>Amazon MP3 Downloader Plugin 1.0.17</string>
+	<key>WebPluginMIMETypes</key>
+	<dict>
+		<key>application/x-amz</key>
+		<dict>
+			<key>WebPluginExtensions</key>
+			<array>
+				<string></string>
+			</array>
+			<key>WebPluginTypeDescription</key>
+			<string>Amazon MP3 Downloader Plugin 1.0.17</string>
+		</dict>
+	</dict>
+	<key>WebPluginName</key>
+	<string>AmazonMP3DownloaderPlugin</string>
+</dict>
+</plist>

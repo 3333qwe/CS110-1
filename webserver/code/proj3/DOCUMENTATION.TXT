@@ -1,0 +1,94 @@
+Javier Palomares javierp@stanford.edu
+
+Design Documentation
+
+Optimization Log
+
+1. Memoization of inode metadata in fileops.c 
+
+Description of the optimization: 
+The metadata(inumber and inodes) needed for fileops.c 	methods is computed once and stored in the openFileTable.
+
+Analysis of optimization:
+The inumber and inode associated with a file are are constant, so it's not necessary to compute them multiple times. The starter code computes the inode and fetches the inode on every single call to _getchar(), which is completely unnecessary. The perf profiler showed the simple disk lookup spends 93.15% of its time in the disksim_readsector with 66.52% of those calls coming from inode_iget. I thus concluded that reducing the number of calls to inode_iget would increase performance as it would lead to fewer calls to disksim_readsector.
+
+Back-of-the-envelope calculations:
+Assuming that each file is only scanned once, the optimization will lead to approximately N fewer computations of the inumber and fetching of the inode, where N is the length of the file in chars. Thus this optimization should decrease running time by N times (time required to fetch inode + compute inumber) ~ N * 8000 ms. 
+
+Measurements of effectiveness of optimization
+Prior to any optimizations, simple had 403 i/o's and medium was at about 2,500,000. The optimization brought the number of i/o's in both down by approximately a 15 % (down to about 300 i/o's in simple and 2,100,000 M in medium).
+
+2. Storing of blocks being read
+
+Description of the optimization:
+The file block being read by _getchar()/_getword() is stored until all of its characters have been read. It is then replaced by the next block to read.
+
+Analysis of the optimization:
+_getchar() reads chars from a file block. The initial implementation of it fetches the block, reads 1 char of it, then throws it away. It's much more efficient to hold the block until all of its characters have been read. The perf profiler showed 35% of the calls to diskimg_readsector come from fileops_getchar(). Optimizating _getchar() should significantly decrease the number of reads.
+
+Back of the envelope calculation:
+Fileops_get char fetches every file block N times, where N is the number of characters in the block (for most sectors N=512). Storing the block being read should bring the number of sector fetches down to 1. Then implementing this optimization should decrease the number of i/o's by approximately 512 * number of sectors.
+
+Measurements:
+This optimization makes a significant reduction in the number of i/o's. It brought the number of i/o's by approximately .5- for simple down to ~150 and for medium down to ~1,000,000. Gprof showed a decrease in the number of calls to file_getblock.
+
+3. Caching
+
+Description of the optimization:
+Caching of data sectors at the diskimg layer. 
+
+Analysis of the optimization:
+The perf profiler showed the program spends the far majority of its running time (>90%) from calls to disksim_readsector. Including a cache to store sectors will decrease the number of reads from disk and should significantly speed up the program.
+
+Back of the envelope calculation:
+
+If a sector has a probability p of being found in the cache, then the cache should decrease the number of reads by a factor of (1 - p)^N, where N is the number of sector that can be stored in the cache. The probability p varies with the implementation of the cache, particularly with the replacement strategy. A random replacement strategy should give a probably p of nearly .5. I'm caching sectors by their sector numbers, so the probability might not be .5. Regardless of the exact value of p, caching sectors will decrease the number of reads.
+
+Measurements:
+
+This optimization made a vast improvement. Medium is down to 823 i/o's and large to 3510 i/o's. These numbers are when running with a cache size of 1024kB and improve when running with the default cache size 
+
+
+4. Caching at the inode the inode layer
+
+Description of the optimization
+
+Storing some inodes and indirect blocks at the inode layer will decrease the times we need to call call disk read. This optimization is very similar to what was done at the fileops layer. 
+
+Analysis of optimization:
+Although for the medium and large programs I'm at about the 90% performance requirement, for vlarge I was still not even at the 70% performance requirement (1,500,000 i/o's). 
+After running the gprof and perf profilers on the vlarge case, I noticed that the majority of the calls to diskread came from inode_iget(around 40%). I concluded that an optimization similar to what I had done in the fileops layer would improve i/o's.
+
+Back-of-the envelope calculation:
+My assignment 1 code fetched the inode from the disk on every call to inode_iget(). Storing the least recently used inode will decrease the number of fetches especially if the same files is accessed many times sequentally. An even bigger improvement should be made by storing indirect blocks should improve the file_reading, as I will not longer need to go through the fetching of sectors holding the indirect blocks if the indirect I'm looking for is being held. Without this storing, every call to file_getblock leads to at least 2 disk reads for large files: 1 to fetch the indirect block and another to fetch the file_block. And this is done 256 times for each indirect block (fetch the indirect block to get file block 0,fetch the indirect block again to get file block 1, and so on...). Thus in the optimum case, I will decrease the number of times that indirect blocks are read by a factor of 256.
+
+Measurements:
+The optimization did not have a drastic effect on medium and large, these were brought down to around (740 and 3200 i/o's), but vlarge saw a drastic improvement: down to 200,000 i/o's. I'll conclude that is due to the large files in vlarge that would normally have to fetch indirect blocks and doubly indirect blocks many times over.
+
+
+5.  Memoization of checksums
+
+Description of optimization:
+
+The pathstore layer compares files by their checksum, among other ways. The checksum for each file is computed once and stored in the pathstore.
+
+Analysis of optimization.
+In the starter code, the checksum for each file is computed on each comparison. A file's checksum,like its inumber and inode, are constant, so it's unnecessary to compute it over and over again. 
+This is very similar to the memoization of inodes and inumbers in the open file table
+
+Back-of-the-envelope calculation
+
+Memoization of the checksums will decrease the number of times the checksums are computed by the number of comparisons. The number of comparisons goes like O(n^2) where n is the number of files, since each file is compared to approximately n other files. Thus this optimization will lead to n^2 fewer computations of checksums.
+
+
+Measurement:
+After implementing this optimization, medium is at 721 I/o's, large at ~3100 and vlarge at 28k. 
+
+
+Performance of vlarge:
+1MB cache: Vlarge runs at 229 seconds and 28624 reads.
+16 KB: Vlarge has 109218 reads.
+256 KB: 32671 reads
+512 MB: 29995 reads
+
+The performance of vlarge increases as the cache size grows, but we see that the gain slows down as the cache size increases. This is due to the number of hits in the cache approaching some limit (100 % hit rate).

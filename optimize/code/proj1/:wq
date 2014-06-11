@@ -1,0 +1,14 @@
+eiEHave a bug with /verybigfile
+
+HG: Enter commit message.  Lines beginning with 'HG:' are removed.
+HG: Leave message empty to abort commit.
+HG: --
+HG: user: Javier Palomares <javierp>@stanford.edu
+HG: branch 'default'
+HG: changed diskimageaccess
+HG: changed file.c
+HG: changed file.o
+HG: changed inode.c
+HG: changed inode.o
+HG: changed pathname.o
+HG: changed v6fslib.a

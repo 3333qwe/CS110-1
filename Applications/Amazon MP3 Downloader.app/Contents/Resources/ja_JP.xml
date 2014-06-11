@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translation>
+  <description></description>
+  <name>ja_JP</name>
+  <strings>
+    <string base="dmusic_about_copyright" translated="©2007-2012, Amazon.com, Inc. or its affiliates"></string>
+    <string base="dmusic_about_title" translated="概要"></string>
+    <string base="dmusic_about_version_osx" translated="バージョン:%d.%d.%d.%d"></string>
+    <string base="dmusic_about_version_w32" translated="バージョン："></string>
+    <string base="dmusic_advprefs_enable_proxy_osx" translated="なし（無効）"></string>
+    <string base="dmusic_advprefs_enable_proxy_w32" translated="プロキシサーバ経由でダウンロード"></string>
+    <string base="dmusic_advprefs_proxy_address" translated="アドレス："></string>
+    <string base="dmusic_advprefs_proxy_password" translated="パスワード："></string>
+    <string base="dmusic_advprefs_proxy_port" translated="ポート："></string>
+    <string base="dmusic_advprefs_proxy_settings" translated="プロキシ設定："></string>
+    <string base="dmusic_advprefs_proxy_type" translated="タイプ："></string>
+    <string base="dmusic_advprefs_proxy_username" translated="ユーザー名："></string>
+    <string base="dmusic_advprefs_title" translated="高度な詳細設定"></string>
+    <string base="dmusic_amd_branding" translated="Amazon MP3 ダウンローダー"></string>
+    <string base="dmusic_balloon_adding_track_to_library" translated="（%1%に追加します）"></string>
+    <string base="dmusic_balloon_album_added_to_queue" translated="&quot;%2%&quot;の&quot;%1%&quot;をダウンロードリストに追加しました"></string>
+    <string base="dmusic_balloon_all_tracks_finished" translated="すべての商品のダウンロードが完了しました。"></string>
+    <string base="dmusic_balloon_finished_with_errors" translated="エラーによりダウンロードが終了しました。[再試行] ボタンをクリックして、ダウンロードを再試行するか、またはヘルプでサポートを受けてください。"></string>
+    <string base="dmusic_balloon_music_in_library" translated="ファイルは%1%のライブラリに保存されています"></string>
+    <string base="dmusic_balloon_queue_finished_help" translated="サポートが必要な場合は、ヘルプをクリックしてください。"></string>
+    <string base="dmusic_balloon_track_add_failed" translated="商品を %1% ライブラリに追加できませんでした。"></string>
+    <string base="dmusic_balloon_track_add_skipped" translated="商品は %1% でサポートされていないため、%1% ライブラリに追加されませんでした。"></string>
+    <string base="dmusic_balloon_track_added_to_queue" translated="&quot;%1%&quot;の商品が&quot;%2%&quot;により、ダウンロードキューに追加されました。"></string>
+    <string base="dmusic_balloon_track_fail_plural" translated="%1% の商品は %2% ライブラリに追加できませんでした。"></string>
+    <string base="dmusic_balloon_track_fail_singular" translated="%1% の商品は %2% ライブラリに追加できませんでした。"></string>
+    <string base="dmusic_balloon_track_finished" translated="&quot;%2%&quot;への&quot;%1%&quot;の商品のダウンロードが完了しました"></string>
+    <string base="dmusic_balloon_track_skipped_plural" translated="%2% がファイルフォーマットをサポートしていないため、%1% の商品は %2% ライブラリに追加されませんでした。"></string>
+    <string base="dmusic_balloon_track_skipped_singular" translated="%2% がファイルフォーマットをサポートしていないため、%1% の商品は %2% ライブラリに追加されませんでした。"></string>
+    <string base="dmusic_balloon_track_started" translated="&quot;%2%&quot;へ&quot;%1%&quot;の商品をダウンロードしています"></string>
+    <string base="dmusic_button_cancel" translated="キャンセル"></string>
+    <string base="dmusic_button_close" translated="閉じる"></string>
+    <string base="dmusic_button_get_help" translated="ヘルプ"></string>
+    <string base="dmusic_button_ignore" translated="無視"></string>
+    <string base="dmusic_button_install" translated="インストール"></string>
+    <string base="dmusic_button_no" translated="いいえ"></string>
+    <string base="dmusic_button_ok" translated="OK"></string>
+    <string base="dmusic_button_open_itunes" translated="iTunesを開く"></string>
+    <string base="dmusic_button_open_wmp" translated="Windows Media Playerを開く"></string>
+    <string base="dmusic_button_quit" translated="中止"></string>
+    <string base="dmusic_button_retry_download" translated="再試行"></string>
+    <string base="dmusic_button_retry_import" translated="再試行"></string>
+    <string base="dmusic_button_show_download_directory" translated="ダウンロードフォルダを見る"></string>
+    <string base="dmusic_button_yes" translated="はい"></string>
+    <string base="dmusic_corrupteditunes_explanation" translated="インストールされているiTunesが破損している可能性があります。問題が修復されるまで、Amazon MP3ダウンローダーで曲を自動的にiTunesのライブラリに追加することはできません。問題を解決するにはヘルプをご確認ください。"></string>
+    <string base="dmusic_corrupteditunes_more_info" translated="ヘルプ"></string>
+    <string base="dmusic_corrupteditunes_more_info_url" translated="http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=200443920"></string>
+    <string base="dmusic_corrupteditunes_moreinfo" translated="詳しい情報"></string>
+    <string base="dmusic_corrupteditunes_title" translated="破損したiTunesのインストール"></string>
+    <string base="dmusic_diskfull_desc1" translated="ダウンロードフォルダが一杯です"></string>
+    <string base="dmusic_diskfull_desc2" translated="ディスクの空き容量が十分ではないため、追加ダウンロードが完了できません。問題を解決するには以下を確認してください："></string>
+    <string base="dmusic_diskfull_desc3_osx_gtk" translated="1. コンピュータのファイルを削除し、ごみ箱を空にしてください。"></string>
+    <string base="dmusic_diskfull_desc3_w32" translated="1. コンピュータのファイルを削除し、ごみ箱を空にしてください。"></string>
+    <string base="dmusic_diskfull_desc4_osx" translated="2. アプリケーションのメインメニューから「詳細設定」を選択し、ダウンロード先を異なるドライブに変更してください。"></string>
+    <string base="dmusic_diskfull_desc4_w32_gtk" translated="2. メイン画面のファイルメニューから「詳細設定」を選択し、ダウンロード先を異なるドライブに変更してください。"></string>
+    <string base="dmusic_diskfull_desc5" translated="残りのダウンロードはすべて中止されました。再開するには、十分な空きスペースを確保し、Amazon MP3 ダウンローダーの「ダウンロードを再開する」をクリックしてください。"></string>
+    <string base="dmusic_diskfull_title" translated="ディスクの空きスペースが足りません"></string>
+    <string base="dmusic_dl_bad_proxy_settings" translated="プロキシサーバの設定が無効です。詳細設定を確認してください。"></string>
+    <string base="dmusic_dl_canceled" translated="キャンセル済み"></string>
+    <string base="dmusic_dl_canceling" translated="キャンセル中"></string>
+    <string base="dmusic_dl_cant_connect_contact_cs" translated="接続できませんでした。カスタマーサービスにご連絡ください。"></string>
+    <string base="dmusic_dl_cant_connect_retry" translated="接続できません。インターネット接続を確認し、ダウンロードしなおしてください。"></string>
+    <string base="dmusic_dl_completed" translated="完了"></string>
+    <string base="dmusic_dl_downloaded" translated="ダウンロード済み"></string>
+    <string base="dmusic_dl_downloading" translated="ダウンロード中"></string>
+    <string base="dmusic_dl_expired" translated="ダウンロードできません。カスタマーサービスにご連絡ください。"></string>
+    <string base="dmusic_dl_failed_contact_cs" translated="ダウンロードに失敗しました。カスタマーサービスにご連絡ください。"></string>
+    <string base="dmusic_dl_failed_retry_contact_cs" translated="ダウンロードに失敗しました。再度ダウンロードしてください。問題が解決しない場合、カスタマーサービスにご連絡ください。"></string>
+    <string base="dmusic_dl_import_failed" translated="インポートに失敗しました"></string>
+    <string base="dmusic_dl_import_retrying" translated="インポートを再試行する"></string>
+    <string base="dmusic_dl_import_skipped" translated="インポートは省略されました"></string>
+    <string base="dmusic_dl_importing" translated="インポート中"></string>
+    <string base="dmusic_dl_incomplete" translated="未完了"></string>
+    <string base="dmusic_dl_local_file_error" translated="ローカルファイルエラー"></string>
+    <string base="dmusic_dl_paused" translated="一時停止"></string>
+    <string base="dmusic_dl_pausing" translated="一時停止中"></string>
+    <string base="dmusic_dl_retrying" translated="再試行中"></string>
+    <string base="dmusic_dl_waiting" translated="待機中"></string>
+    <string base="dmusic_dlg_check_amz_permissions_1" translated="AMZファイルを以下に追加できません："></string>
+    <string base="dmusic_dlg_check_amz_permissions_2" translated="このファイルの読み取りの権限があるか確認し、再度お試しください。"></string>
+    <string base="dmusic_dlg_check_file_assocation_desc" translated="選択したファイルを開くことができません。ファイル種類の関連付けを確認し、再度お試しください。"></string>
+    <string base="dmusic_dlg_clear_erroneous_desc" translated="ダウンロードリストに誤ったダウンロードが含まれています。消去しますか？"></string>
+    <string base="dmusic_dlg_clear_erroneous_title" translated="誤ったダウンロードを削除しますか？"></string>
+    <string base="dmusic_dlg_completed_do_not_remind_me_again" translated="今後、このメッセージを表示しない"></string>
+    <string base="dmusic_dlg_completed_itunes_desc1" translated="ミュージックのダウンロードとインポートに成功しました。"></string>
+    <string base="dmusic_dlg_completed_itunes_desc2" translated="ファイルを探すにはiTunesのライブラリを確認するか、Windows Explorerで「ダウンロード」フォルダを参照してください。"></string>
+    <string base="dmusic_dlg_completed_itunes_desc2_osx" translated="ファイルを探すにはiTunesのライブラリを確認するか、Finderを使用して「ダウンロード」フォルダを参照してください。"></string>
+    <string base="dmusic_dlg_completed_itunes_title" translated="Amazon MP3 ダウンローダー"></string>
+    <string base="dmusic_dlg_completed_no_library_desc1" translated="ファイルのダウンロードに成功しました。"></string>
+    <string base="dmusic_dlg_completed_no_library_desc2" translated="ファイルを探すには「ダウンロード」フォルダを参照してください。"></string>
+    <string base="dmusic_dlg_completed_no_library_desc2_osx" translated="ファイルを探すにはFinderで「ダウンロード」フォルダを参照してください。"></string>
+    <string base="dmusic_dlg_completed_no_library_title" translated="Amazon MP3 ダウンローダー"></string>
+    <string base="dmusic_dlg_completed_wmp_desc1" translated="ファイルのダウンロードとインポートに成功しました。"></string>
+    <string base="dmusic_dlg_completed_wmp_desc2" translated="ファイルを探すにはWindows Media Playerのライブラリを確認するか、Windows Explorerで「ダウンロード」フォルダを参照してください。"></string>
+    <string base="dmusic_dlg_completed_wmp_title" translated="Amazon MP3 ダウンローダー"></string>
+    <string base="dmusic_dlg_confirm_quit_desc" translated="アクティブなダウンロードまたはインポートがまだありますが、終了してもよろしいですか？"></string>
+    <string base="dmusic_dlg_confirm_quit_title" translated="アクティブなダウンロードまたはインポートがまだあります。"></string>
+    <string base="dmusic_dlg_download_expired_desc1" translated="有効期限切れのリンク"></string>
+    <string base="dmusic_dlg_download_expired_desc2" translated="ダウンロード開始から時間が経過しすぎたため、ダウンロードできなかったMP3ファイルがあります。詳しくは、ヘルプをご覧ください。"></string>
+    <string base="dmusic_dlg_download_failed_desc1" translated="ダウンロードに失敗しました。"></string>
+    <string base="dmusic_dlg_download_failed_desc2" translated="ダウンロードに失敗したファイルがあります。"></string>
+    <string base="dmusic_dlg_download_failed_title" translated="Amazon MP3 ダウンローダー"></string>
+    <string base="dmusic_dlg_help_file_missing" translated="ヘルプファイルが見つかりませんでした。アプリケーションを再インストールしてください。"></string>
+    <string base="dmusic_dlg_import_failed_desc1" translated="失敗したインポート"></string>
+    <string base="dmusic_dlg_import_failed_desc2_itunes" translated="iTunes ライブラリにインポートする1つまたは複数のダウンロードに失敗しました。iTunes に移動し、保留中のメッセージが開いている場合は、それを閉じるか、確認してください。また、iTunes を一度閉じて、再度開いてください。そして、[再試行] ボタンをクリックして、失敗したインポートを再試行してください。さらに、[ダウンロードフォルダを表示] ボタンをクリックして、いつでも音楽の商品を見つけることができます。"></string>
+    <string base="dmusic_dlg_import_failed_desc2_wmp" translated="Windows Media Player ライブラリにインポートする1つまたは複数のダウンロードに失敗しました。[再試行] ボタンをクリックして、失敗したインポートを再試行してください。さらに、[ダウンロードフォルダを表示] ボタンをクリックして、いつでも音楽の商品を見つけることができます。"></string>
+    <string base="dmusic_dlg_import_failed_title" translated="Amazon MP3 ダウンローダー"></string>
+    <string base="dmusic_dlg_import_skipped_desc1" translated="一部の商品はインポートされませんでした。"></string>
+    <string base="dmusic_dlg_import_skipped_desc2_itunes" translated="1つまたは複数のダウンロードが iTunes ライブラリにインポートされませんでした。これらの商品は iTunes でサポートされていないファイルフォーマットです。[ダウンロードフォルダを表示] ボタンをクリックして、いつでも音楽の商品を見つけることができます。"></string>
+    <string base="dmusic_dlg_import_skipped_desc2_wmp" translated="1つまたは複数のダウンロードが Windows Media Player ライブラリにインポートされませんでした。これらの商品はお客様の Windows Media Player でサポートされていないファイルフォーマットです。[ダウンロードフォルダを表示] ボタンをクリックして、いつでも音楽の商品を見つけることができます。"></string>
+    <string base="dmusic_dlg_import_skipped_title" translated="Amazon MP3 ダウンローダ"></string>
+    <string base="dmusic_dlg_invalid_amz_desc" translated="商品のダウンロードキューへの追加に失敗しました。入力ファイルが無効か、または破損しています。"></string>
+    <string base="dmusic_dlg_no_default_browser_desc" translated="デフォルトのブラウザが見つかりませんでした。ファイルを探すには以下のフォルダを参照してください："></string>
+    <string base="dmusic_dlg_no_default_browser_title" translated="デフォルトのブラウザが見つかりません"></string>
+    <string base="dmusic_dlg_permission_denied_desc" translated="このフォルダにファイルを保存する権限がありません。別のフォルダを選択してください。"></string>
+    <string base="dmusic_dlg_permission_denied_title" translated="権限がありません"></string>
+    <string base="dmusic_dlg_safari_needs_restart_desc" translated="Amazon MP3 ダウンローダーのインストール完了後にSafariを再起動してください。\n\nご注文後の場合、Safariを再起動する際に注文を完了するようメッセージが表示されます。Safariを終了して「OK」ボタンをクリックしてください。"></string>
+    <string base="dmusic_dlg_safari_needs_restart_title" translated="Safariを再起動してください"></string>
+    <string base="dmusic_dlg_select_amz_file" translated="ロードするAMZファイルを選択してください"></string>
+    <string base="dmusic_installation_complete" translated="インストールが完了しました"></string>
+    <string base="dmusic_install_amd_running_osx_desc" translated="インストールを継続する前にAmazon MP3 ダウンローダーを終了してください。"></string>
+    <string base="dmusic_install_amd_running_osx_title" translated="Amazon MP3 ダウンローダーを起動しています"></string>
+    <string base="dmusic_install_amd_running_w32_desc" translated="Amazon MP3 ダウンローダーが起動しています。終了後に「OK」ボタンをクリックしてください。セットアップを中止するには「キャンセル」ボタンをクリックしてください。"></string>
+    <string base="dmusic_install_auth_failed_desc" translated="Amazon MP3 ダウンローダーをインストールしようとしましたが、認証に失敗しました。"></string>
+    <string base="dmusic_install_auth_failed_title" translated="認証の失敗"></string>
+    <string base="dmusic_install_cancel" translated="インストールを中止する"></string>
+    <string base="dmusic_install_double_click" translated="インストールするには、下のAmazon MP3 インストーラーをダブルクリックしてください。"></string>
+    <string base="dmusic_install_failed_copy_desc" translated="Amazon MP3 ダウンローダーの新しいバージョンを「アプリケーション」フォルダにコピーできませんでした。"></string>
+    <string base="dmusic_install_failed_copy_title" translated="インストールに失敗しました"></string>
+    <string base="dmusic_install_invalid_os_osx_desc" translated="Amazon MP3 ダウンローダーを使用するには、OS Xのバージョン10.4.0 (Tiger)またはそれ以降が必要です。"></string>
+    <string base="dmusic_install_invalid_os_title" translated="ご利用のオペレーティングシステム（OS）はサポート対象外です"></string>
+    <string base="dmusic_install_invalid_osx_w32_desc" translated="Amazon MP3 ダウンローダーを使用するには、WindowsXPまたはそれ以降が必要です。"></string>
+    <string base="dmusic_install_millions_drm_free" translated="DRMフリーのミュージックダウンロード"></string>
+    <string base="dmusic_install_pkg_desc_btk" translated="Amazon MP3 ダウンローダーを使用して、Amazon MP3ストアからアルバムを購入してください。"></string>
+    <string base="dmusic_install_songs_compatible" translated="すべての曲は以下で再生できます："></string>
+    <string base="dmusic_install_title" translated="Amazon MP3 インストーラー"></string>
+    <string base="dmusic_log_dir_name" translated="Amazon MP3"></string>
+    <string base="dmusic_menu_file" translated="ファイル"></string>
+    <string base="dmusic_menu_file_exit" translated="終了"></string>
+    <string base="dmusic_menu_file_open_amz" translated="AMZファイルを開く…"></string>
+    <string base="dmusic_menu_file_prefs" translated="詳細設定"></string>
+    <string base="dmusic_menu_help" translated="ヘルプ"></string>
+    <string base="dmusic_menu_help_about" translated="概要"></string>
+    <string base="dmusic_menu_help_check_update" translated="アップデートを確認する"></string>
+    <string base="dmusic_menu_help_contact_cs" translated="カスタマーサービスに連絡する"></string>
+    <string base="dmusic_menu_help_enable_in_browser" translated="ブラウザでのダウンロードを有効にする"></string>
+    <string base="dmusic_menu_help_show" translated="ヘルプを見る"></string>
+    <string base="dmusic_notification_tip" translated="ダウンロード中です(%1%%%)"></string>
+    <string base="dmusic_prefs_add_none" translated="選択しない"></string>
+    <string base="dmusic_prefs_add_to_itunes" translated="iTunesに追加する"></string>
+    <string base="dmusic_prefs_add_to_wmp" translated="Windows Media Playerに追加する"></string>
+    <string base="dmusic_prefs_advanced_button" translated="高度な設定"></string>
+    <string base="dmusic_prefs_auto_minimize" translated="ブラウザから起動した際に自動的に最小化する"></string>
+    <string base="dmusic_prefs_auto_update_check" translated="プログラムのアップデートを自動的にチェックする"></string>
+    <string base="dmusic_prefs_change_button" translated="変更"></string>
+    <string base="dmusic_prefs_general_tab" translated="一般"></string>
+    <string base="dmusic_prefs_minimize_to_tray" translated="システムトレイにアイコンを最小化する"></string>
+    <string base="dmusic_prefs_music_dir_gtk" translated="ダウンロード先のフォルダ"></string>
+    <string base="dmusic_prefs_music_dir_osx" translated="ファイルのダウンロード先"></string>
+    <string base="dmusic_prefs_music_dir_w32" translated="ダウンロードフォルダ"></string>
+    <string base="dmusic_prefs_network_tab" translated="ネットワーク"></string>
+    <string base="dmusic_prefs_post_download" translated="メディアプレーヤー"></string>
+    <string base="dmusic_prefs_select_directory" translated="フォルダを選択してください"></string>
+    <string base="dmusic_prefs_show_balloon_tips" translated="バルーンヒントを表示する"></string>
+    <string base="dmusic_prefs_title" translated="詳細設定"></string>
+    <string base="dmusic_return_to_browser" translated="Amazon MP3 ダウンローダのインストールが正常に完了しました。ブラウザに戻って、音楽ダウンロードを完了してください。"></string>
+    <string base="dmusic_status_downloading_by" translated="表示順"></string>
+    <string base="dmusic_status_downloading_gtk" translated="現在&lt;b&gt;&lt;big&gt;%1%&lt;/big&gt;&lt;/b&gt;&lt;br&gt;by &lt;b&gt;&lt;big&gt;%2%&lt;/big&gt;&lt;/b&gt;をダウンロード中です"></string>
+    <string base="dmusic_status_downloading_osx" translated="%1$@ by %2$@をダウンロード中です"></string>
+    <string base="dmusic_status_downloading_w32" translated="ダウンロード中"></string>
+    <string base="dmusic_status_shop" translated="MP3ダウンロードストアへ"></string>
+    <string base="dmusic_statusbar_adding_plural" translated="%1% の商品を %2% へ追加しています"></string>
+    <string base="dmusic_statusbar_adding_singular" translated="%1% の商品を %2% へ追加しています"></string>
+    <string base="dmusic_toolbar_clear" translated="ダウンロード済みファイルをクリア"></string>
+    <string base="dmusic_toolbar_clear_hint" translated="エラーのあったファイルとダウンロード済みファイルをリストから削除"></string>
+    <string base="dmusic_toolbar_open" translated="選択したファイルを開く"></string>
+    <string base="dmusic_toolbar_pause" translated="ダウンロードの一時停止"></string>
+    <string base="dmusic_toolbar_pause_hint" translated="ダウンロードをすべて一時停止"></string>
+    <string base="dmusic_toolbar_resume" translated="ダウンロードの再開"></string>
+    <string base="dmusic_toolbar_resume_hint" translated="ダウンロードをすべて再開"></string>
+    <string base="dmusic_toolbar_reveal_gtk" translated="ダウンロードしたフォルダを確認"></string>
+    <string base="dmusic_toolbar_reveal_hint_osx" translated="Finderで選択したファイルを開く"></string>
+    <string base="dmusic_toolbar_reveal_osx" translated="Finderで開く"></string>
+    <string base="dmusic_toolbar_reveal_w32" translated="ダウンロードしたフォルダを確認"></string>
+    <string base="dmusic_traymenu_exit" translated="終了"></string>
+    <string base="dmusic_traymenu_restore" translated="復元"></string>
+    <string base="dmusic_treeview_action" translated="実行"></string>
+    <string base="dmusic_treeview_action_open" translated="開く"></string>
+    <string base="dmusic_treeview_action_play" translated="再生"></string>
+    <string base="dmusic_treeview_action_retry_download" translated="再試行"></string>
+    <string base="dmusic_treeview_action_retry_import" translated="再試行"></string>
+    <string base="dmusic_treeview_action_video_play" translated="再生"></string>
+    <string base="dmusic_treeview_action_view_download_dir" translated="ダウンロードしたフォルダを確認"></string>
+    <string base="dmusic_treeview_status" translated="ダウンロード状況"></string>
+    <string base="dmusic_treeview_title" translated="タイトル"></string>
+    <string base="dmusic_update_check_failed_desc" translated="アップデート情報の検索に失敗しました。インターネットに接続されているか確認し、お時間を置いてからやり直してください。"></string>
+    <string base="dmusic_update_check_failed_title" translated="アップデートの確認に失敗しました"></string>
+    <string base="dmusic_update_installed_version" translated="インストールしたバージョン："></string>
+    <string base="dmusic_update_latest_version" translated="最新のバージョン："></string>
+    <string base="dmusic_update_new_version_desc" translated="利用可能なAmazon MP3 ダウンローダーの新しいバージョンがあります。できるだけ早くインストールいただくことをお勧めします。"></string>
+    <string base="dmusic_update_new_version_title" translated="新しいバージョンが利用できます"></string>
+    <string base="dmusic_update_quit_goto_dl_page" translated="終了し、ダウンロードページに戻る"></string>
+    <string base="dmusic_update_remind_me_later" translated="後で表示する"></string>
+    <string base="dmusic_update_up_to_date_desc" translated="お使いのAmazon MP3 ダウンローダーは最新のバージョンです"></string>
+    <string base="dmusic_update_up_to_date_title" translated="最新のバージョンにアップデート"></string>
+    <string base="dmusic_url_help_general" translated="http://www.amazon.co.jp/gp/help/customer/display.html/?nodeId=200443900"></string>
+    <string base="dmusic_url_customer_service" translated="https://www.amazon.co.jp/gp/help/contact-us/music-downloads.html"></string>
+    <string base="dmusic_url_download_folder_full" translated="http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=200443920"></string>
+    <string base="dmusic_url_expired_download" translated="http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=200443920"></string>
+    <string base="dmusic_url_failed_download" translated="http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=200443920"></string>
+    <string base="dmusic_url_failed_import" translated="http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=200443920"></string>
+    <string base="dmusic_url_music_store" translated="http://www.amazon.co.jp/mp3/"></string>
+    <string base="dmusic_url_post_install" translated="http://www.amazon.co.jp/gp/dmusic/after_download_manager_install.html"></string>
+    <string base="dmusic_url_post_uninstall" translated="http://www.amazon.co.jp/gp/dmusic/after_download_manager_uninstall.html"></string>
+    <string base="dmusic_url_report_service" translated="http://www.amazon.co.jp/gp/dmusic/amd-result.html/"></string>
+    <string base="dmusic_url_skipped_import" translated="http://www.amazon.co.jp/gp/help/customer/display.html/ref=amb_link_61174569_5?ie=UTF8&amp;nodeId=200443920&amp;pf_rd_m=AN1VRQENFRJN5&amp;pf_rd_s=right-1&amp;pf_rd_r=00EKSHR43JHX98XHXD0H&amp;pf_rd_t=101&amp;pf_rd_p=103653109&amp;pf_rd_i=2128134051"></string>
+    <string base="dmusic_url_troubleshooting" translated="http://www.amazon.co.jp/gp/help/customer/display.html?nodeId=200443920"></string>
+    <string base="dmusic_url_update_check" translated="http://www.amazon.co.jp/gp/dmusic/current_download_manager_version.html"></string>
+    <string base="dmusic_url_cirrus_report_service" translated="https://www.amazon.co.jp/cirrus/2011-06-01/"></string>
+  </strings>
+</translation>

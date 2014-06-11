@@ -1,0 +1,106 @@
+Javier Palomares Assignment 2
+javierp@stanford.edu
+
+Discussion Questions
+
+1
+	a. Compare the concurrency supported by your system with the
+	system we provided you without locks.
+	
+	My system supports concurrency at the branch level. Branches are 
+	able to operate independently.
+
+	The systems without locks supports concurrency at all levels. All
+	operations were able to run concurrently.
+
+	Commands that are still able to proceed concurrently are deposits
+	 and withdrawals of accounts in different branches (deposit into
+	 an account in branch 1 and deposit into an account in branch 2),
+	 and transfers  among accounts that do not interfere with each
+	 other (transfer from A to B and C to D are able to run concurrently). 
+	 Every worker is able to file complete their daily data
+	 concurrently when doing the Report_Transfer method. 
+	
+	Deposits/withdrawls into accounts sharing branch are no longer
+	able to run concurrently. Instead they run sequentally to keep
+	consistent branch balances. Transfers amongst interfering accounts
+	are also forced to run sequentally. All balance requests
+	(bank,branch,account) are forced to run sequentally.
+
+	Workers are also not able to complete the _DoReport() method
+	independently of one another. The synchronization forces any
+	worker to wait till all workers are ready to complete the report.
+	
+	b. My approach to avoiding deadlocking was to acquire all
+	necessary locks as early as possible. (A transaction should acquire 
+	the branch's locks and account(s)'s locks before beginning to even
+	partially executing the transaction. Doing so make transactions
+	entirely atomic. This prevents a transaction from requesting a
+	lock that is being held by another transaction.
+	 
+	I also established a convention for requesting locks. This makes
+	it so that if locks A and B are needed, lock A will always be
+	requested before lock B. In my program I decided this convention
+	by comparing the associated accountID's/branchID's with a lock
+	and always requesting the lower of the two first.
+
+	I also made my lock recursive. Although I'm sure it's possible to
+	do without them, I felt that they're a safeguard protection, since
+	they absolutely prevent concurrency in critical code, yet don't
+	inhibit threads that are holding a lock. In the end, my code
+	initially acquires locks in the teller methods and further
+	acquires/releases in the methods in account.c and branch.c.
+
+2. Assume you're told your system needs to support two orders of magnitude
+more accounts and tellers but the same number of branches. What changes
+would you recommend to the bank software structure to support address
+additional workload.
+   
+   I would recommend adding a level of indirection between accounts and
+   branches. In my current system, depositing and withdrawing from
+   accounts or requesting a branch's balance is very costly, as it locks 
+   the entire branch and serializes transactions within branches. I would
+   group accounts within branches into a data structure, and then
+   withdrawing/depositing of account's would only lock the group. This
+   would allow for greater concurrency within branches. Requesting the
+   balance of a branch would then lock all of the groups within in,
+   request their balance and then calculate the branch balance. This is
+   identical to how the bank balance request is implemented.  
+
+3. 
+   a. Shortly after releasing a multithreaded version of the software, a
+   account that was just out of money discovers that he is now the world's
+   richest person. Describe the race conditions that could cause this
+   happen.
+
+   Say the account has ammount x in it. Then 2 withdrawals methods are
+   called to this account to withdraw an amount x, with each call running
+   on a thread. The first thread gets to the 
+   if (account->balance < amount) check and it sees that !(x<x), so it
+   continues. Then before this thread is able to subtract the amount from
+   the account balance, the second thread gets to the 
+   if (account->balance < amount) check. Since the first account has not
+   subtracted the amount yet, this second thread also sees !(x<x) so it
+   also doesn not return ERROR_INSUFFICIENT_FUNDS. The first thread then
+   goes ahead and subtract's x from the account's balance (subtracts x
+   from x leaving the account's balance at zero) and returns. 
+   The second thread then goes ahead and also subtracts the amount from
+   the account's balance (subtracts x from zero). This cause an overflow
+   in the account's balance, leading to a very high account balance 
+   (eg. 0000 - 0001 = 1111 which is interpreted as a very high number
+   since the balances are unsigned variables).
+
+
+   b. The problem will still occur if the code was running on 32 bits
+   instead of 64. The problem comes from the balances being stored as
+   unsigned bits and race conditions in checking the the account's balance
+   for sufficient amount and subtracting the amount from the
+   balance. Switching to signed variables alone would not fix the problem,
+   as it could still cause overflow in balances(A very negative balance goes
+   to a very positive one).
+
+
+
+4. I developed on the cluster (corn).
+
+5. I did not complete any of the extra credit.

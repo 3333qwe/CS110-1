@@ -1,0 +1,139 @@
+{
+  "content" : {
+    "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><div class='subjectids'><a name='apdFC3EEA74-B995-4F27-BA09-D469A0A27F14'><\/a><\/div><h1 class='title topictitle1'>วิธีใช้ App Store<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>วิธีใช้ App Store<\/h2><p class='p'>ใช้ App Store ในการค้นหาแอปพลิเคชั่น Mac ซื้อและติดตั้งแอปพลิเคชั่น อัปเดตให้ทันสมัย และเขียนบทวิจารณ์<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "วิธีใช้ App Store",
+      "name" : "วิธีใช้ App Store",
+      "class" : "default",
+      "excludefromsearch" : "1"
+    },
+    "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D" : {
+      "name" : "ทำงานกับ App Store มากกว่านี้"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+      "alternativeNameStyle" : "replace"
+    },
+    "apd19be2943-f29b-47e6-bd5f-c42098164b98" : {
+      "navigation" : "false",
+      "content" : "<div id='apd19be2943-f29b-47e6-bd5f-c42098164b98' class='apd-topic'><div class='subjectids'><a name='apd19be2943-f29b-47e6-bd5f-c42098164b98'><\/a><\/div><h1 class='title topictitle1'>หัวข้อที่เลือกไม่สามารถใช้งานได้ในขณะนี้<\/h1><div class='body conbody'><p class='p'>ตรวจสอบให้แน่ใจว่าคุณได้เชื่อมต่ออินเทอร์เน็ตแล้ว สำหรับความช่วยเหลือในการเชื่อมต่อ ให้เลือกเมนู Apple > การตั้งค่าระบบ คลิก เครือข่าย แล้วคลิก “ช่วยเหลือฉัน”<\/p><p class='p'>หากคุณเชื่อมต่ออินเทอร์เน็ตแล้ว แต่เนื้อหายังคงไม่ปรากฏ ให้ลองอีกครั้งในภายหลัง<\/p><\/div><\/div>",
+      "alternativeName" : "หัวข้อที่เลือกไม่สามารถใช้งานได้ในขณะนี้",
+      "name" : "หัวข้อที่เลือกไม่สามารถใช้งานได้ในขณะนี้",
+      "class" : "content-not-available-message"
+    },
+    "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65" : {
+      "name" : "สิ่งจำเป็น"
+    },
+    "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC" : {
+      "name" : "หัวข้อวิธีใช้แบบไม่มีตารางเนื้อหา",
+      "navigation" : "false"
+    },
+    "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F" : {
+      "name" : "บัญชีผู้ใช้ของคุณ"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "apdFC3EEA74-B995-4F27-BA09-D469A0A27F14",
+          "class" : "default"
+        },
+        {
+          "id" : "apdC28E4670-8CB5-4E40-8DE5-D72D04499E65",
+          "children" : [
+            {
+              "name" : "ยินดีต้อนรับสู่ App Store",
+              "href" : "#t_Welcome",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "ค้นหาแอปพลิเคชั่น",
+              "href" : "#t_SearchBrowse",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "ซื้อ, ดาวน์โหลด และติดตั้งแอปพลิเคชั่น",
+              "href" : "#t_BuyDownloadInstall",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "แลกรหัสบัตรของขวัญและโค้ดดาวน์โหลด",
+              "href" : "#t_Redeem",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "อัปเดต OS X และแอปพลิเคชั่น",
+              "href" : "#t_Update",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "บอกคนอื่นเกี่ยวกับแอปพลิเคชั่น",
+              "href" : "#t_LearnApps",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apdA9DA0E9C-DDA5-451A-9E77-65D6D778AC1F",
+          "children" : [
+            {
+              "name" : "เข้าสู่ระบบและออกจากระบบ",
+              "href" : "#t_SignIn",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "ตรวจทานและเปลี่ยนแปลง Apple ID ของคุณและข้อมูลการเรียกเก็บเงิน",
+              "href" : "#t_AppleID",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "ใช้การควบคุมโดยผู้ปกครอง",
+              "href" : "#t_Parental",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0F3A7883-4F6E-4608-B3DE-3D99A9151E4D",
+          "children" : [
+            {
+              "name" : "คีย์ลัดแป้นพิมพ์และท่าทาง",
+              "href" : "#r_KeyboardShortcuts",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "แก้ไขปัญหา",
+              "href" : "#t_Trouble",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "apd0E1E4FF0-CF6E-4D1D-BF65-F734903293DC",
+          "children" : [
+            {
+              "id" : "apd19be2943-f29b-47e6-bd5f-c42098164b98",
+              "class" : "content-not-available-message"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "5.7",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "frnic.png",
+    "AppVersion" : "5.1",
+    "FolderName" : "AppStore.help",
+    "LocalizationISOCode" : "th",
+    "buildID" : "3B627DBA-9A2F-11E1-B012-155775470237",
+    "Title" : "วิธีใช้ App Store",
+    "RemoteURL" : "https:\/\/help.apple.com\/appstore\/mac\/1.2\/10.8\/help\/"
+  }
+}

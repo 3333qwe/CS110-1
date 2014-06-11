@@ -1,0 +1,173 @@
+{
+  "content" : {
+    "atmtr35500" : {
+      "navigation" : "false",
+      "content" : "<div class='apd-topic' id='atmtr35500'><div class='subjectids'><a name='atmtr35500'><\/a><\/div><h1 class='title topictitle1'>Automator Help<\/h1><div class='body conbody'><div class='section'><h2 class='title sectiontitle'>Automator Help<\/h2><p class='p'>U bespaart tijd door met Automator krachtige takenreeksen en oplossingen aan te maken zonder dat u één regel programmacode hoeft te schrijven.<\/p><\/div><\/div><\/div>",
+      "alternativeName" : "Automator Help",
+      "name" : "Automator Help",
+      "class" : "default"
+    },
+    "button-1" : {
+      "type" : "navigation",
+      "alternativeNameStyle" : "replace"
+    },
+    "atmtr35500-a" : {
+      "name" : "Basisonderwerpen"
+    },
+    "button-0" : {
+      "type" : "navigation",
+      "howdyPageID" : "atmtr35500",
+      "alternativeNameStyle" : "replace"
+    },
+    "atmtr35500-b" : {
+      "name" : "Taken samenvoegen tot takenreeksen"
+    },
+    "atmtr35500-c" : {
+      "name" : "Extra mogelijkheden toevoegen aan takenreeksen"
+    },
+    "offline-message-com-apple-Automator-help" : {
+      "navigation" : "false",
+      "content" : "<div id='offline-message-com-apple-Automator-help' class='apd-topic'><div class='subjectids'><a name='offline-message-com-apple-Automator-help'><\/a><\/div><h1 class='title topictitle1'>Het geselecteerde onderwerp is momenteel niet beschikbaar<\/h1><div class='body conbody'><p class='p'>Controleer of er verbinding is met het internet. Als u hulp nodig hebt, kiest u Apple-menu > 'Systeemvoorkeuren' en klikt u vervolgens op 'Netwerk' en 'Assistentie'.<\/p><p class='p'>Als u verbinding hebt met het internet en de inhoud nog steeds niet wordt weergegeven, probeert u het later nog een keer.<\/p><\/div><\/div>",
+      "alternativeName" : "Het geselecteerde onderwerp is momenteel niet beschikbaar",
+      "name" : "Het geselecteerde onderwerp is momenteel niet beschikbaar",
+      "class" : "content-not-available-message"
+    }
+  },
+  "hierarchy" : [
+    {
+      "id" : "button-0",
+      "children" : [
+        {
+          "id" : "atmtr35500",
+          "class" : "default"
+        },
+        {
+          "id" : "atmtr35500-a",
+          "children" : [
+            {
+              "name" : "Meer informatie over taken",
+              "href" : "#ensm1001",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Meer informatie over takenreeksen",
+              "href" : "#ensm1002",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Taken kiezen",
+              "href" : "#ensm1004",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Een takenreeks samenstellen",
+              "href" : "#ensm1007",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Informatie over taken opvragen",
+              "href" : "#ensm2689",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Een takenreeks uitvoeren",
+              "href" : "#ensm1011",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Een takenreeks bewaren",
+              "href" : "#ensm1008",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "atmtr35500-b",
+          "children" : [
+            {
+              "name" : "De volgorde van taken in een takenreeks wijzigen",
+              "href" : "#ensm1013",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Een takenreeks werkt niet",
+              "href" : "#ensm2696",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Activiteiten van een takenreeks bekijken",
+              "href" : "#ensm2684",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "De invoer van een takenreeks beheren",
+              "href" : "#ensm2712",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Taken uit takenreeksen verwijderen",
+              "href" : "#ensm2705",
+              "class" : "unresolved-reference"
+            }
+          ]
+        },
+        {
+          "id" : "atmtr35500-c",
+          "children" : [
+            {
+              "name" : "Automator aansturen met AppleScript",
+              "href" : "#ensm2682",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Takenreeksen aanmaken door uw handelingen op te nemen",
+              "href" : "#atmtr15195",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "De knoppenbalk aanpassen",
+              "href" : "#ensm2714",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "Opgeven dat een takenreeks op een specifiek tijdstip moet worden uitgevoerd",
+              "href" : "#ensm2716",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "AppleScripts aan een takenreeks toevoegen",
+              "href" : "#ensm1014",
+              "class" : "unresolved-reference"
+            },
+            {
+              "name" : "UNIX-commando's en shellscripts gebruiken in Automator",
+              "href" : "#ensm1015",
+              "class" : "unresolved-reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "button-1",
+      "children" : [
+        {
+          "id" : "offline-message-com-apple-Automator-help",
+          "class" : "content-not-available-message"
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "ShowVersionNumber" : false,
+    "BuildVersion" : "17.3",
+    "Design" : "redFlamingo",
+    "CategoryArt" : "autik.png",
+    "AppVersion" : "4.1",
+    "FolderName" : "Automator.help",
+    "LocalizationISOCode" : "nl",
+    "buildID" : "0BADE322-923A-11E1-B012-155775470237",
+    "Title" : "Automator Help",
+    "RemoteURL" : "https:\/\/help.apple.com\/automator\/mac\/10.8\/help\/"
+  }
+}

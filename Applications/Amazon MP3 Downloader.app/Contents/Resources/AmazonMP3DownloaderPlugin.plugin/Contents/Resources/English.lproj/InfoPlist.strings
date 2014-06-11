@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "AmazonMP3DownloaderPlugin.plugin";
+NSHumanReadableCopyright = "Copyright 2012 Amazon.com, Inc. or its affiliates";

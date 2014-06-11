@@ -1,0 +1,23 @@
+Released:  1.0.4
+  - Fixed "Reveal in Finder" toolbar button to reveal the download directory
+    if no track is selected.
+
+Released:  1.0.3
+  - Fixed bug where read-only .amz files weren't being loaded. 
+
+Released:  1.0.2
+  - Fixed obscure "Can't connect" bug in Leopard.
+  - Track numbers less than 10 are now prefixed with a 0 so filenames
+    sort properly.
+  - Correctly resolve aliases if they exist in the download path.
+  - Make sure installer window always stays on top
+  - Changed User-Agent string
+
+Released:  1.0.1
+  - Installer detects invalid operating system versions and notifies user.
+  - Fixed bug where certain tracks were not being added to the iTunes
+    library.
+  - Added proxy server support.
+
+Released:  1.0.0
+  - Initial Release.
